@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { X, Send, User, ChevronUp } from 'lucide-react';
+import { X, Send, User } from 'lucide-react';
 import './FloatingWhatsApp.css';
 
 const FloatingWhatsApp: React.FC = () => {

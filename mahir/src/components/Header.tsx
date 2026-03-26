@@ -4,7 +4,7 @@ import { Menu, X, MessageCircle } from 'lucide-react';
 import './Header.css';
 
 const Header: React.FC = () => {
-  const [isScrolled, setIsScrolled] = bgScrolledState();
+  const [isScrolled] = bgScrolledState();
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const location = useLocation();
 
