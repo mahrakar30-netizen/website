@@ -6,9 +6,14 @@ import './Header.css';
 const Header: React.FC = () => {
   const [isScrolled] = bgScrolledState();
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [dropdownOpen, setDropdownOpen] = useState(false);
   const location = useLocation();
 
   const toggleMenu = () => setMobileMenuOpen(!mobileMenuOpen);
+  const toggleDropdown = () => setDropdownOpen(!dropdownOpen);
+  const closeDropdown = () => setDropdownOpen(false);
+
+  const isDistrictActive = location.pathname === '/tuzla.html' || location.pathname === '/pendik.html' || location.pathname === '/kartal.html';
 
   return (
     <header className={`header ${isScrolled ? 'scrolled' : ''}`}>
@@ -21,6 +26,20 @@ const Header: React.FC = () => {
           <ul className="nav-list">
             <li><Link to="/" className={location.pathname === '/' ? 'active' : ''} onClick={toggleMenu}>Ana Sayfa</Link></li>
             <li><Link to="/hakkimizda" className={location.pathname === '/hakkimizda' ? 'active' : ''} onClick={toggleMenu}>Hakkımızda</Link></li>
+            <li className={`nav-item-dropdown ${dropdownOpen ? 'dropdown-open' : ''}`}>
+              <span
+                className={`nav-dropdown-trigger ${isDistrictActive ? 'active' : ''}`}
+                onClick={toggleDropdown}
+                onMouseEnter={() => {}}
+              >
+                Hizmet Verdiğimiz Bölgeler
+              </span>
+              <ul className={`dropdown-menu ${dropdownOpen ? 'dropdown-show' : ''}`}>
+                <li><Link to="/tuzla.html" className={location.pathname === '/tuzla.html' ? 'active' : ''} onClick={() => { closeDropdown(); toggleMenu(); }}>Tuzla</Link></li>
+                <li><Link to="/pendik.html" className={location.pathname === '/pendik.html' ? 'active' : ''} onClick={() => { closeDropdown(); toggleMenu(); }}>Pendik</Link></li>
+                <li><Link to="/kartal.html" className={location.pathname === '/kartal.html' ? 'active' : ''} onClick={() => { closeDropdown(); toggleMenu(); }}>Kartal</Link></li>
+              </ul>
+            </li>
             <li><Link to="/blog" className={location.pathname === '/blog' ? 'active' : ''} onClick={toggleMenu}>Piyasa Analizi</Link></li>
             <li><Link to="/iletisim" className={location.pathname === '/iletisim' ? 'active' : ''} onClick={toggleMenu}>İletişim</Link></li>
           </ul>

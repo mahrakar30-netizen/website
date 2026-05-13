@@ -54,9 +54,118 @@
 }
 
 .nav-list a:hover,
-.nav-list a.active {
+.nav-list a.active,
+.nav-dropdown-trigger:hover,
+.nav-dropdown-trigger.active {
   color: var(--text-primary);
   opacity: 1;
+}
+
+.nav-item-dropdown {
+  position: relative;
+}
+
+.nav-dropdown-trigger {
+  font-size: 13px;
+  font-weight: 400;
+  color: var(--text-primary);
+  opacity: 0.8;
+  position: relative;
+  letter-spacing: -0.01em;
+  padding: 4px 0;
+  cursor: pointer;
+  transition: opacity var(--transition-fast);
+  user-select: none;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  min-width: 200px;
+  background: rgba(255,255,255,0.95);
+  backdrop-filter: saturate(180%) blur(20px);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  border: 1px solid rgba(0,0,0,0.06);
+  border-radius: 12px;
+  padding: 8px 0;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.08);
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(8px);
+  transition: all 0.2s ease;
+  z-index: 100;
+}
+
+.nav-item-dropdown:hover .dropdown-menu {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.dropdown-menu li a {
+  display: block;
+  padding: 10px 20px;
+  font-size: 13px;
+  color: var(--text-primary);
+  opacity: 0.8;
+  white-space: nowrap;
+  transition: all var(--transition-fast);
+}
+
+.dropdown-menu li a:hover,
+.dropdown-menu li a.active {
+  background: rgba(0,0,0,0.03);
+  opacity: 1;
+}
+
+@media (max-width: 900px) {
+  .nav-item-dropdown {
+    width: 100%;
+  }
+
+  .nav-dropdown-trigger {
+    font-size: 18px;
+    padding: 0;
+  }
+
+  .dropdown-menu {
+    position: static;
+    background: transparent;
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+    border: none;
+    box-shadow: none;
+    padding: 8px 0 0 16px;
+    opacity: 1 !important;
+    visibility: visible !important;
+    transform: none !important;
+    display: none;
+  }
+
+  .dropdown-menu.dropdown-show,
+  .nav-item-dropdown.dropdown-open .dropdown-menu {
+    display: block;
+  }
+
+  .nav-item-dropdown:hover .dropdown-menu {
+    display: none;
+  }
+
+  .nav-item-dropdown.dropdown-open:hover .dropdown-menu {
+    display: block;
+  }
+
+  .dropdown-menu li a {
+    font-size: 16px;
+    padding: 8px 0;
+    opacity: 0.7;
+  }
+
+  .dropdown-menu li a:hover {
+    background: transparent;
+    opacity: 1;
+  }
 }
 
 .header-actions {
