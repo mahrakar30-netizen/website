@@ -1,8 +1,0 @@
-Sitemap: https://mahirakarremax.com/sitemap.xml
-
-User-agent: *
-Allow: /
-
-# Sistem dizinlerine bot erişimini engelle
-Disallow: /admin
-Disallow: /api/
