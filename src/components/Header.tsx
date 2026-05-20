@@ -41,6 +41,7 @@ const Header: React.FC = () => {
               </ul>
             </li>
             <li><Link to="/blog" className={location.pathname === '/blog' ? 'active' : ''} onClick={toggleMenu}>Piyasa Analizi</Link></li>
+            <li><Link to="/makaleler" className={location.pathname.startsWith('/makaleler') ? 'active' : ''} onClick={toggleMenu}>Makaleler</Link></li>
             <li><Link to="/iletisim" className={location.pathname === '/iletisim' ? 'active' : ''} onClick={toggleMenu}>İletişim</Link></li>
           </ul>
         </nav>

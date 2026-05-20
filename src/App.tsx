@@ -5,6 +5,8 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Evaluation from './pages/Evaluation';
 import Blog from './pages/Blog';
+import Makaleler from './pages/Makaleler';
+import MakaleDetay from './pages/MakaleDetay';
 import Contact from './pages/Contact';
 import AdminBlog from './pages/AdminBlog';
 import DistrictPage from './pages/DistrictPage';
@@ -21,6 +23,8 @@ function App() {
             <Route path="/hakkimizda" element={<About />} />
             <Route path="/degerleme" element={<Evaluation />} />
             <Route path="/blog" element={<Blog />} />
+            <Route path="/makaleler" element={<Makaleler />} />
+            <Route path="/makaleler/:slug" element={<MakaleDetay />} />
             <Route path="/iletisim" element={<Contact />} />
             <Route path="/admin" element={<AdminBlog />} />
             <Route path="/tuzla.html" element={<DistrictPage district="Tuzla" title="Tuzla Emlak | Mahira Kar Remax" description="Mahira Kar Remax olarak Tuzla'da profesyonel emlak hizmetleri sunuyoruz. Çok yakında hizmetinizdeyiz." keywords="Tuzla emlak, Tuzla gayrimenkul, Mahira Kar Remax, Tuzla satılık daire" canonical="https://mahirakarremax.com/tuzla.html" ogTitle="Tuzla Emlak | Mahira Kar Remax" ogDescription="Tuzla'da profesyonel emlak hizmetleri." />} />

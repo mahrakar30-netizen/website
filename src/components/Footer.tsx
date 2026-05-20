@@ -26,6 +26,7 @@ const Footer: React.FC = () => {
             <li><Link to="/">Ana Sayfa</Link></li>
             <li><Link to="/hakkimizda">Hakkımızda</Link></li>
             <li><Link to="/degerleme">Mülk Değerleme</Link></li>
+            <li><Link to="/makaleler">Makaleler</Link></li>
             <li><Link to="/blog">Piyasa Raporları</Link></li>
           </ul>
         </div>
@@ -65,6 +66,7 @@ const Footer: React.FC = () => {
       
       <div className="footer-bottom container mt-8">
         <p className="text-muted text-sm">© {new Date().getFullYear()} Mahir Gayrimenkul Analitiği. Tüm hakları saklıdır.</p>
+        <p className="text-muted text-sm" style={{marginTop:"4px"}}>Edited by <a href="https://senninweb.com" target="_blank" rel="noopener noreferrer" style={{color:"var(--text-secondary)", textDecoration:"underline", textUnderlineOffset:"2px"}}>Sennin Web</a></p>
         <div className="footer-legal">
           <Link to="#">KVKK Aydınlatma Metni</Link>
           <Link to="#">Gizlilik Politikası</Link>

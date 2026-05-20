@@ -1,0 +1,144 @@
+.makale-detay-page {
+  padding: 140px 0 100px;
+  min-height: 100vh;
+  background-color: var(--bg-secondary);
+}
+
+.makale-detay-back {
+  margin-bottom: 40px;
+}
+
+.back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--text-secondary);
+  font-size: 14px;
+  font-weight: 500;
+  transition: color var(--transition-fast);
+}
+
+.back-link:hover {
+  color: var(--accent-color);
+}
+
+.makale-detay-content {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.makale-detay-header {
+  margin-bottom: 60px;
+}
+
+.makale-detay-category {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--accent-color);
+  margin-bottom: 20px;
+}
+
+.makale-detay-title {
+  font-size: clamp(2.5rem, 5vw, 3.5rem);
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  line-height: 1.1;
+  margin-bottom: 24px;
+  color: var(--text-primary);
+}
+
+.makale-detay-meta {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  font-size: 14px;
+  color: var(--text-secondary);
+}
+
+.meta-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.meta-divider {
+  color: var(--text-muted);
+  font-size: 12px;
+}
+
+.article-content {
+  line-height: 1.8;
+  font-size: 1.1rem;
+  color: var(--text-primary);
+}
+
+.article-heading {
+  font-size: 1.75rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: var(--accent-color);
+  margin-top: 56px;
+  margin-bottom: 20px;
+  scroll-margin-top: 120px;
+}
+
+.article-heading:first-child {
+  margin-top: 0;
+}
+
+.article-paragraph {
+  margin-bottom: 24px;
+  color: var(--text-primary);
+  line-height: 1.8;
+}
+
+.article-bullet-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 32px 0;
+}
+
+.article-bullet-list li {
+  position: relative;
+  padding-left: 28px;
+  margin-bottom: 16px;
+  line-height: 1.7;
+  color: var(--text-primary);
+}
+
+.article-bullet-list li::before {
+  content: '•';
+  position: absolute;
+  left: 8px;
+  color: var(--accent-color);
+  font-weight: 700;
+  font-size: 1.2em;
+}
+
+.article-bullet-list li strong {
+  color: var(--text-primary);
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .makale-detay-page {
+    padding: 120px 0 60px;
+  }
+
+  .makale-detay-header {
+    margin-bottom: 40px;
+  }
+
+  .article-content {
+    font-size: 1rem;
+  }
+
+  .article-heading {
+    font-size: 1.4rem;
+    margin-top: 40px;
+  }
+}
