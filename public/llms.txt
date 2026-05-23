@@ -1,0 +1,41 @@
+# Mahir Akar - Gayrimenkul Danışmanlığı
+> https://mahirakarremax.com
+
+Tuzla, Pendik ve Kartal bölgelerinde veri odaklı gayrimenkul danışmanlığı. Mahir Akar, Remax Balance çatısı altında mülk değerleme, satış danışmanlığı ve yatırım danışmanlığı hizmetleri sunmaktadır.
+
+## Pages
+
+- [Ana Sayfa](/) - Site ana sayfası
+- [Hakkımızda](/hakkimizda) - Analitik ve sosyolojik gayrimenkul yaklaşımı
+- [Mülk Değerleme](/degerleme) - Bilimsel fiyat analizi talep formu
+- [Makaleler](/makaleler) - Gayrimenkul rehberi makaleleri
+- [Piyasa Analizi](/blog) - Emlak piyasası raporları ve analizler
+- [İletişim](/iletisim) - İletişim bilgileri ve formu
+
+## Articles
+
+- [Evimi(Gayrimenkulümü) Satarken Fiyatı Nasıl Belirlemeliyim?](/makaleler/evimi-gayrimenkulumu-satarken-fiyati-nasil-belirlemeliyim) - Karşılaştırmalı piyasa analizi, bölgesel trendler ve hatalı fiyatlandırmadan kaçınma rehberi
+- [Satış Öncesi Ev Değerini Artıran En Etkili 7 Küçük Dokunuş](/makaleler/satis-oncesi-ev-degerini-artiran-7-kucuk-dokunus) - Düşük bütçeli müdahalelerle ev değerini artırma taktikleri
+
+## Blog Posts
+
+- İstanbul Mahalle Dinamikleri ve Emlak Endeksi: Gelecek 5 Yılın Tespiti
+- Enflasyonist Ortamlarda Gayrimenkul Stratejisi
+- Hissiyata Değil Analize Dayalı Fiyatlandırma
+- Kiracılı Mülk Satışlarında Risk Yönetimi
+- Yeni Nesil Alıcı Profili: Millennial Kuşağı ve Konut
+
+## District Pages
+
+- [Tuzla Emlak Hizmetleri](/tuzla.html)
+- [Pendik Emlak Hizmetleri](/pendik.html)
+- [Kartal Emlak Hizmetleri](/kartal.html)
+
+## Contact
+
+- Phone: +90 (551) 981 73 09
+- Email: mahira@remaxbalance.com
+- WhatsApp: https://wa.me/905519817309
+- Address: Cınardere, Akan Sokagi NO:9 IC KAPI NO:1, 34896 Pendik/Istanbul
+- LinkedIn: https://tr.linkedin.com/in/mahir-akar-256302224
+- Instagram: https://www.instagram.com/mahirremax/
