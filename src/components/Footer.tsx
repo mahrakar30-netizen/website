@@ -28,6 +28,9 @@ const Footer: React.FC = () => {
             <li><Link to="/degerleme">Mülk Değerleme</Link></li>
             <li><Link to="/makaleler">Makaleler</Link></li>
             <li><Link to="/blog">Piyasa Raporları</Link></li>
+            <li><Link to="/tuzla.html">Tuzla</Link></li>
+            <li><Link to="/pendik.html">Pendik</Link></li>
+            <li><Link to="/kartal.html">Kartal</Link></li>
           </ul>
         </div>
 
