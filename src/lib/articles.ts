@@ -11,6 +11,7 @@ export interface Article {
   category: string;
   readTime: string;
   excerpt: string;
+  keywords?: string;
   content: ContentBlock[];
 }
 
@@ -35,6 +36,80 @@ function truncateExcerpt(text: string, maxLength = 160): string {
 }
 
 const articles: Article[] = [
+  {
+    slug: 'evimi-gayrimenkulumu-satarken-fiyati-nasil-belirlemeliyim',
+    title: 'Evimi(Gayrimenkulümü) Satarken Fiyatı Nasıl Belirlemeliyim? Doğru Fiyatlandırma Rehberi',
+    author: 'Mahir Akar',
+    date: '2025-05-23',
+    category: 'Satış Stratejisi',
+    readTime: '5 dk',
+    excerpt: 'Evinizi satarken doğru fiyatı nasıl belirlersiniz? Karşılaştırmalı piyasa analizi, bölgesel trendler ve gayrimenkul ekspertiz taktikleriyle hatalı fiyatlandırmadan kaçının. Profesyonel danışmanlıkla ücretsiz piyasa analizi.',
+    keywords: 'gayrimenkul fiyatlandırma, ev fiyatı belirleme, konut metrekare fiyatı, gayrimenkul ekspertiz, piyasa analizi, ev satış stratejisi, doğru fiyatlandırma rehberi',
+    content: [
+      {
+        type: 'paragraph',
+        text: 'Gayrimenkul satış sürecinde mülk sahiplerinin yaptığı en büyük hata, duygusal bağlar veya kişisel ihtiyaçlar üzerinden fiyat belirlemektir. Pazarın gerçeklerinden uzak, hatalı fiyatlandırma ile satışa çıkan ilanlar, sitelerde uzun süre kalarak "eskir" ve alıcı gözünde değerini kaybeder. Evinizi hızlı ve değerinde satmanın yolu, bilimsel veriye dayalı bir fiyat stratejisinden geçer.'
+      },
+      {
+        type: 'paragraph',
+        text: 'İşte ev fiyatı belirleme sürecinde izlemeniz gereken adımlar ve kritik gayrimenkul ekspertiz taktikleri:'
+      },
+      {
+        type: 'heading',
+        text: '1. Karşılaştırmalı Piyasa Analizi (CMA) Yapın'
+      },
+      {
+        type: 'paragraph',
+        text: 'Doğru bir konut metrekare fiyatı hesaplama işlemi için bölgenizdeki benzer mülkleri incelemelisiniz.'
+      },
+      {
+        type: 'bulletList',
+        items: [
+          {
+            bold: 'Aktif İlanlar: ',
+            text: 'Rakibiniz olan güncel ilanların fiyatlarını analiz edin. Ancak unutmayın; ilan sitelerindeki fiyatlar "istenen" fiyatlardır, "satılan" fiyatlar değil.'
+          },
+          {
+            bold: 'Satılmış Mülkler: ',
+            text: 'Son 3 ila 6 ay içinde bölgenizde gerçekten satılmış benzer evlerin kapanış fiyatlarını öğrenin. Pazarın tabanını ve tavanını bu veriler belirler.'
+          }
+        ]
+      },
+      {
+        type: 'heading',
+        text: '2. Bölgesel Faktörleri ve Trendleri Değerlendirin'
+      },
+      {
+        type: 'paragraph',
+        text: 'Evinizin fiziki durumu kadar, yer aldığı konumun sunduğu dinamikler de fiyatı doğrudan etkiler.'
+      },
+      {
+        type: 'bulletList',
+        items: [
+          {
+            bold: 'Ulaşım ve Altyapı: ',
+            text: 'Metroya, ana yollara veya köprü bağlantılarına yakınlık metrekare değerini yukarı taşır.'
+          },
+          {
+            bold: 'Amortisman ve Arz-Talep Dengesi: ',
+            text: 'Bölgedeki kiralık/satılık oranları ve bölgenin geri dönüş (amortisman) süresi yatırımcının ilk bakacağı verilerdir. Bölgede benzer nitelikte çok fazla konut arzı varsa, fiyatı daha rekabetçi tutmak zorundasınız.'
+          }
+        ]
+      },
+      {
+        type: 'heading',
+        text: '3. Hatalı Fiyatlandırma Tuzaklarından Kaçının'
+      },
+      {
+        type: 'paragraph',
+        text: '"Fiyatı yüksekten açalım, nasıl olsa pazarlıkla düşeriz" düşüncesi en yaygın hatalı fiyatlandırma tuzağıdır. Doğru fiyatın üzerindeki mülkler, pazardaki ilk ve en heyecanlı alıcı kitlesini kaçırır. İlanın yayında kaldığı süre uzadıkça, alıcılar mülkte teknik veya hukuki bir sorun olduğunu düşünerek uzaklaşır. En nihayetinde mülk, hak ettiği değerin de altına satılmak zorunda kalabilir.'
+      },
+      {
+        type: 'paragraph',
+        text: 'Profesyonel İpucu: Bölgenizdeki gerçek satış rakamlarına, tapu verilerine ve doğru endeks analizlerine ulaşmak uzmanlık gerektirir. Süreci riske atmamak, zaman ve nakit kaybetmemek adına bölgenizde aktif çalışan profesyonel bir gayrimenkul danışmanından destek alarak ücretsiz piyasa analizi talep edebilirsiniz.'
+      }
+    ]
+  },
   {
     slug: 'satis-oncesi-ev-degerini-artiran-7-kucuk-dokunus',
     title: 'Satış Öncesi Ev Değerini Artıran En Etkili 7 Küçük Dokunuş',
@@ -232,6 +307,8 @@ export function getArticleSlugs(): string[] {
 }
 
 articles.forEach(a => {
-  const firstTextBlock = a.content.find(b => b.type === 'paragraph');
-  a.excerpt = firstTextBlock ? truncateExcerpt(firstTextBlock.text) : '';
+  if (!a.excerpt) {
+    const firstTextBlock = a.content.find(b => b.type === 'paragraph');
+    a.excerpt = firstTextBlock ? truncateExcerpt(firstTextBlock.text) : '';
+  }
 });

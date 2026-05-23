@@ -46,6 +46,7 @@ const MakaleDetay: React.FC = () => {
   useSEO({
     title: article ? `${article.title} | Mahir Akar` : 'Makale Bulunamadı | Mahir Akar',
     description: article?.excerpt || '',
+    keywords: article?.keywords,
     canonical: article ? `https://mahirakarremax.com/makaleler/${article.slug}` : undefined,
     ogTitle: article?.title,
     ogDescription: article?.excerpt,
