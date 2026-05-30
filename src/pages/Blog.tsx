@@ -58,6 +58,22 @@ const Blog: React.FC = () => {
       excerpt: "Yeni nesil gayrimenkul yatırımcılarının satın alma alışkanlıkları ve beklentileri üzerine demografik bir araştırma.",
       date: "15 Ekim 2023",
       readTime: "7 dk"
+    },
+    {
+      id: 6,
+      tag: "Satış Stratejisi",
+      title: "Sahibinden Ev Satmanın Riskleri ve Profesyonel Desteğin Sağladığı 5 Avantaj",
+      excerpt: "Sahibinden ev satmak düşündüğünüz kadar avantajlı olmayabilir. Bu rehberde, bireysel satışın riskleri ve profesyonel emlak danışmanı ile çalışmanın sağladığı 5 kritik avantajı objektif verilerle inceliyoruz.",
+      date: "30 Mayıs 2026",
+      readTime: "7 dk"
+    },
+    {
+      id: 7,
+      tag: "Piyasa Analizi",
+      title: "Tuzla Hala Gayrimenkul Yatırımı İçin Kazançlı mı? 2026 Pazar Analizi",
+      excerpt: "Tuzla satılık daire ve arsa piyasası, 2026 yılında da o eski yüksek prim potansiyelini koruyor mu? Amortisman süreleri, metrekare fiyatları ve bölge bazlı fırsatlar.",
+      date: "30 Mayıs 2026",
+      readTime: "7 dk"
     }
   ];
 

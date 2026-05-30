@@ -286,9 +286,285 @@ const articles: Article[] = [
         type: 'paragraph',
         text: 'Gayrimenkulünüzü pazara sunmadan önce yukarıda belirtilen 7 küçük dokunuşu uygulamak, size binlerce liralık büyük tadilat masraflarından tasarruf ettirirken, mülkünüzün satış değerini %5 ile %10 arasında optimize edebilir. Masrafsız ev yenileme yaklaşımları, alıcıların mülke yönelik pazarlık marjını daraltır; çünkü karşılarında itiraz edebilecekleri, fiyat kırmak için kullanabilecekleri "kusurlar" bulamazlar.'
       },
+          {
+            type: 'paragraph',
+            text: 'Evinizi doğru fiyatlandırma stratejisiyle ve bu estetik dokunuşlarla destekleyerek pazara sunduğunuzda, hem daha kısa sürede alıcı bulacak hem de mülkünüzün hak ettiği gerçek değeri masada korumuş olacaksınız. Gayrimenkul satış sürecinde profesyonel bir pazarlama planı ve doğru pazar analizi için her zaman bölgenizde uzman bir gayrimenkul danışmanından destek almanız sürecinizi hızlandıracaktır.'
+          }
+        ]
+      },
+  {
+    slug: 'sahibinden-ev-satmanin-riskleri-ve-profesyonel-destegin-sagladigi-5-avantaj',
+    title: 'Sahibinden Ev Satmanın Riskleri ve Profesyonel Desteğin Sağladığı 5 Avantaj',
+    author: 'Mahir Akar',
+    date: '2026-05-30',
+    category: 'Satış Stratejisi',
+    readTime: '7 dk',
+    excerpt: 'Sahibinden ev satmak düşündüğünüz kadar avantajlı olmayabilir. Bu rehberde, bireysel satışın riskleri ve profesyonel emlak danışmanı ile çalışmanın sağladığı 5 kritik avantajı objektif verilerle inceliyoruz.',
+    keywords: 'sahibinden ev satmak, sahibinden ev satma riskleri, emlak danışmanı avantajları, profesyonel gayrimenkul danışmanı, ev satarken dikkat edilmesi gerekenler, gayrimenkul satış süreci',
+    content: [
       {
         type: 'paragraph',
-        text: 'Evinizi doğru fiyatlandırma stratejisiyle ve bu estetik dokunuşlarla destekleyerek pazara sunduğunuzda, hem daha kısa sürede alıcı bulacak hem de mülkünüzün hak ettiği gerçek değeri masada korumuş olacaksınız. Gayrimenkul satış sürecinde profesyonel bir pazarlama planı ve doğru pazar analizi için her zaman bölgenizde uzman bir gayrimenkul danışmanından destek almanız sürecinizi hızlandıracaktır.'
+        text: 'Gayrimenkul satışı, bir bireyin hayatı boyunca gerçekleştirebileceği en yüksek finansal hacme sahip işlemlerden biridir. Günümüzde birçok mülk sahibi, emlak danışmanlık hizmeti bedelinden tasarruf etmek amacıyla mülkünü "sahibinden" unvanıyla pazara sunmayı tercih etmektedir. İlk bakışta ekonomik bir yöntem gibi görünen bu karar, gayrimenkul hukukuna, pazar dinamiklerine ve pazarlık süreçlerine tam anlamıyla hakim olunmadığında ciddi finansal zararlara, zaman kayıplarına ve hatta hukuki krizlere yol açabilmektedir.'
+      },
+      {
+        type: 'paragraph',
+        text: 'Bir mülkü profesyonel destek almadan satmaya çalışmak, modern gayrimenkul pazarında sadece bir ilan sitesine fotoğraf yüklemekten çok daha karmaşık bir süreci tek başına göğüslemek anlamına gelir. Bu rehberde, sahibinden ev satmanın riskleri ve uzman bir gayrimenkul danışmanı ile çalışmanın mülk sahiplerine sağladığı 5 yapısal avantaj objektif verilerle ele alınmıştır.'
+      },
+      {
+        type: 'heading',
+        text: 'Sahibinden Ev Satış Sürecinde Karşılaşılan Temel Riskler'
+      },
+      {
+        type: 'paragraph',
+        text: 'Profesyonel bir filtreleme ve pazarlama mekanizması olmadan yürütülen bireysel satış süreçleri, mülk sahiplerini doğrudan açık pazarın getirdiği belirsizliklerle karşı karşıya bırakır. Bu süreçte en sık karşılaşılan risk faktörleri şunlardır:'
+      },
+      {
+        type: 'heading',
+        text: '1. Zaman Kaybı ve Niteliksiz Alıcı Trafiği'
+      },
+      {
+        type: 'paragraph',
+        text: 'Sahibinden verilen ilanların altına bırakılan telefon numaraları, günün her saatinde çalmaya başlar. Ancak bu arayanların çok küçük bir yüzdesi "gerçek ve nitelikli alıcı" profilindedir. Evini satmak isteyen kişi; sadece piyasayı yoklayan meraklılarla, kredi skoru ev almaya yetmeyen kişilerle, gayrimenkul ticareti yapan kayıt dışı aracılarla ve mülkü sadece gezmek isteyen insanlarla vakit kaybetmek zorunda kalır. Her telefon çağrısına cevap vermek ve evi her talep edene göstermek, mülk sahibi için ciddi bir operasyonel yük ve zaman kaybıdır.'
+      },
+      {
+        type: 'heading',
+        text: '2. Güvenlik ve Gizlilik Açıkları'
+      },
+      {
+        type: 'paragraph',
+        text: 'Mülk sahipleri, ilan sitelerine evlerinin açık adreslerini ve iç mekan fotoğraflarını yükleyerek kimliğini, finansal durumunu veya sosyal yaşantısını bilmedikleri onlarca yabancıyı yaşam alanlarına davet etmek durumunda kalırlar. Herhangi bir kimlik doğrulama veya ön eleme yapılmadan gerçekleştirilen ev gösterimleri, hırsızlık başta olmak üzere birçok güvenlik zafiyetine zemin hazırlar.'
+      },
+      {
+        type: 'heading',
+        text: '3. Hukuki ve Mevzuatsal Hatalar'
+      },
+      {
+        type: 'paragraph',
+        text: 'Gayrimenkul mevzuatı; tapu süreçleri, borçlar kanunu, vergi hukuku ve imar durumları gibi oldukça teknik detaylar içerir. Tapu harçlarının eksik beyan edilmesi, değer artış kazancı vergisi hesaplamalarında yapılan hatalar, satış vaadi sözleşmelerindeki usulsüzlükler veya kapora alım süreçlerinde yaşanan uyuşmazlıklar, satış sonrasında mülk sahibine çok daha büyük cezalar ve davalar olarak geri dönebilir.'
+      },
+      {
+        type: 'heading',
+        text: 'Profesyonel Desteğin Sağladığı 5 Hayati Avantaj'
+      },
+      {
+        type: 'paragraph',
+        text: 'Mülk satış sürecini profesyonel bir gayrimenkul danışmanına devretmek, mülk sahibini yukarıda sayılan risklerden korurken, satışın hem finansal hem de operasyonel olarak en yüksek verimle tamamlanmasını sağlar. İşte kurumsal bir danışmanlık hizmetinin sunduğu 5 temel avantaj:'
+      },
+      {
+        type: 'heading',
+        text: '1. Doğru Fiyatlandırma ve Karşılaştırmalı Piyasa Analizi'
+      },
+      {
+        type: 'paragraph',
+        text: 'Gayrimenkulün hızlı ve değerinde satılmasını sağlayan en önemli unsur doğru fiyattır. Mülk sahipleri genellikle kendi evlerine duygusal bağlar veya kişisel nakit ihtiyaçları üzerinden bir değer biçerler. Bu durum, mülkün ya çok yüksek fiyatlanarak pazarda "eskimesine" ya da çok düşük fiyatlanarak finansal zarar edilmesine yol açar.'
+      },
+      {
+        type: 'paragraph',
+        text: 'Profesyonel bir emlak danışmanı, gayrimenkul ekspertiz ve karşılaştırmalı piyasa analizi (CMA) yöntemlerini kullanarak bölgedeki gerçek satış verilerine ulaşır. Bölgenin amortisman sürelerini, güncel ekonomik trendleri ve rakip ilanları analiz ederek mülk için bilimsel, piyasa gerçekleriyle örtüşen ve alıcıyı kaçırmayacak en doğru satış fiyatını belirler.'
+      },
+      {
+        type: 'heading',
+        text: '2. Nitelikli Alıcı Filtreleme ve Veritabanı Yönetimi'
+      },
+      {
+        type: 'paragraph',
+        text: 'Profesyonel danışmanlar, mülkünüzü sadece ilan sitelerine koymakla kalmaz; ellerinde hazır bulunan, bütçesi onaylanmış, kredi altyapısı hazırlanmış ve aktif olarak ev arayan hazır alıcı veritabanını (CRM) devreye sokarlar.'
+      },
+      {
+        type: 'paragraph',
+        text: 'Evi göstermeden önce potansiyel alıcıların finansal yeterliliklerini, satın alma motivasyonlarını ve aciliyet durumlarını analiz ederler. Böylece evinize sadece "gerçek alıcılar" adım atar; gereksiz ev gösterme trafiği engellenmiş olur, mülk sahibinin zamanı ve mahremiyeti korunur.'
+      },
+      {
+        type: 'heading',
+        text: '3. İleri Düzey Pazarlama ve Hedef Kitle Reklamcılığı'
+      },
+      {
+        type: 'paragraph',
+        text: 'Sahibinden satılık ilanlar, genellikle standart telefon fotoğrafları ve yetersiz açıklamalarla sadece belirli platformlarda listelenir. Profesyonel bir gayrimenkul danışmanı ise mülk için özel bir pazarlama planı hazırlar:'
+      },
+      {
+        type: 'bulletList',
+        items: [
+          {
+            bold: 'Görsel Kalite: ',
+            text: 'Geniş açılı profesyonel fotoğraf çekimleri, drone çekimleri ve video turları ile mülkün dijital sunumu en üst seviyeye çıkarılır.'
+          },
+          {
+            bold: 'Dijital Reklamcılık: ',
+            text: 'Sosyal medya algoritlamaları (Instagram, Facebook, LinkedIn ad süreçleri) kullanılarak, mülkün bulunabileceği fiyat segmentine uygun potansiyel alıcıların karşısına nokta atışı reklamlarla çıkılır.'
+          },
+          {
+            bold: 'Ağ Paylaşımı: ',
+            text: 'Mülk, diğer profesyonel gayrimenkul danışmanlarının ve emlak ofislerinin paylaşım ağlarına (MLS) açılarak satış ihtimali çarpan etkisiyle artırılır.'
+          }
+        ]
+      },
+      {
+        type: 'heading',
+        text: '4. Profesyonel Pazarlık Yönetimi ve Objektiflik'
+      },
+      {
+        type: 'paragraph',
+        text: 'Gayrimenkul pazarlıkları, doğası gereği çatışmaya ve duygusal gerilimlere açıktır. Alıcı tarafı fiyatı düşürmek için mülkün kusurlarını öne çıkardığında, mülk sahibi bunu kişisel bir eleştiri olarak algılayıp masadan kalkabilir. Ya da tam tersi, deneyimli alıcılar karşısında savunmasız kalarak fiyatı gereğinden fazla düşürebilir.'
+      },
+      {
+        type: 'paragraph',
+        text: 'Gayrimenkul danışmanı, süreçte tampon bölge görevi görür. Satış sürecini tamamen rasyonel, verilere dayalı ve profesyonel bir pazarlık stratejisi ile yönetir. Alıcının itirazlarını objektif argümanlarla çürütür ve mülk sahibinin finansal çıkarlarını masada sonuna kadar korur.'
+      },
+      {
+        type: 'heading',
+        text: '5. Hukuki Güvence, Sözleşme Altyapısı ve Güvenli Kapanış'
+      },
+      {
+        type: 'paragraph',
+        text: 'Satış kararı verildikten sonraki süreç, en az pazarlık kadar kritiktir. Kaporanın hukuki şartlara bağlanması, tarafların haklarını koruyan adil bir taşınmaz satış vaadi sözleşmesinin hazırlanması, Web Tapu sisteminin hatasız işletilmesi ve paranın transfer yöntemi (Bloke Çek, Tapu Takas Sistemi vb.) uzmanlık gerektirir.'
+      },
+      {
+        type: 'paragraph',
+        text: 'Gayrimenkul danışmanları, güncel mevzuata hakimiyetleri sayesinde tüm bu bürokratik süreci yönetir. Alıcı ve satıcı arasındaki tüm finansal ve hukuki adımların yasalara uygun, şeffaf ve güvenli bir şekilde tamamlanmasını sağlayarak olası dolandırıcılık vakalarının veya sonradan doğabilecek hukuki ihtilafların önüne geçer.'
+      },
+      {
+        type: 'heading',
+        text: 'Sonuç: Emlak Danışmanı Komisyonu Bir Masraf mıdır?'
+      },
+      {
+        type: 'paragraph',
+        text: 'Mülk sahiplerinin profesyonel destekten kaçınmasının arkasındaki temel motivasyon olan emlakçı komisyonu, aslında bir masraf değil; mülkün doğru fiyattan satılmasını sağlayan, finansal riskleri sıfırlayan ve mülk sahibine zaman kazandıran bir güvenlik ve optimizasyon yatırımıdır.'
+      },
+      {
+        type: 'paragraph',
+        text: 'Sahibinden yapılan hatalı fiyatlandırmalar, yanlış pazarlıklar ve uzayan satış süreleri, genellikle ödenecek hizmet bedelinden çok daha büyük finansal kayıplara yol açar. Gayrimenkulünüzü pazarın risklerine karşı korumak, yasal süreçleri sorunsuz atlatmak ve masadan maksimum kazançla ayrılmak için bölgenizde ve segmentinizde uzmanlaşmış kurumsal bir gayrimenkul danışmanı ile stratejik ortaklık kurmak en rasyonel ticari karardır.'
+      }
+    ]
+  },
+  {
+    slug: 'tuzla-hala-gayrimenkul-yatirimi-icin-kazancli-mi-2026-yili-pazar-analizi',
+    title: 'Tuzla Hala Gayrimenkul Yatırımı İçin Kazançlı mı? 2026 Yılı Pazar Analizi',
+    author: 'Mahir Akar',
+    date: '2026-05-30',
+    category: 'Piyasa Analizi',
+    readTime: '7 dk',
+    excerpt: 'Tuzla satılık daire ve arsa piyasası, 2026 yılında da o eski yüksek prim potansiyelini koruyor mu, yoksa pazar doyum noktasına ulaştı mı? Amortisman süreleri, metrekare fiyatları ve bölge bazlı yatırım fırsatları.',
+    keywords: 'Tuzla gayrimenkul, Tuzla yatırım, Tuzla emlak piyasası, Tuzla satılık daire, Tuzla konut fiyatları 2026, Tuzla amortisman süresi, Tuzla metrekare fiyatı',
+    content: [
+      {
+        type: 'paragraph',
+        text: 'İstanbul gayrimenkul piyasası, 2026 yılı itibarıyla finansmana erişim şartları, enflasyon dinamikleri ve değişen alıcı tercihleri doğrultusunda tam anlamıyla bir dengelenme ve ayrışma dönemi yaşamaktadır. Geçmiş yıllarda merkezi ilçelerin gölgesinde bir sahil ve sanayi kasabası olarak görülen Tuzla, bugün megakentin en stratejik büyüme akslarından biri haline gelmiştir.'
+      },
+      {
+        type: 'paragraph',
+        text: 'Yatırımcıların zihnindeki en kritik soru ise net: Tuzla satılık daire ve arsa piyasası, 2026 yılında da o eski yüksek prim potansiyelini koruyor mu, yoksa pazar doyum noktasına ulaştı mı? Bu analizde, Tuzla emlak piyasasının 2026 yılı güncel verilerini, amortisman sürelerini ve bölge bazlı yatırım fırsatlarını rasyonel bir çerçevede ele alacağız.'
+      },
+      {
+        type: 'heading',
+        text: '1. 2026 Yılı İtibarıyla Tuzla Makro Pazar Verileri'
+      },
+      {
+        type: 'paragraph',
+        text: '2026 yılının ilk yarısı itibarıyla İstanbul genelinde konut fiyat artış hızları nominal bazda dengeli bir seyir izlerken, Tuzla bu ortalamaların üzerinde bir direnç ve talep grafiği sergilemektedir.'
+      },
+      {
+        type: 'bulletList',
+        items: [
+          {
+            bold: 'Metrekare Birim Fiyatları: ',
+            text: 'Tuzla genelinde konut niteliğine ve mahallesine göre değişmekle birlikte, ortalama konut metrekare satış fiyatları 35.000 TL ile 45.000 TL bandında (merkezi ve lüks projelerde daha yüksek) seyretmektedir. Bu durum, Tuzla\'yı İstanbul genelindeki ortalama metrekare birim değerlerine kıyasla hala erişilebilir ve "giriş maliyeti düşük" bir pazar konumunda tutmaktadır.'
+          },
+          {
+            bold: 'Amortisman (Geri Dönüş) Süreleri: ',
+            text: 'İstanbul merkezinde 22-25 yıl bandına çıkan konut amortisman süreleri, Tuzla\'nın dinamik kiralık piyasası sayesinde 14 ila 16 yıl seviyelerine kadar düşmektedir. Bu veri, nakit akışı odaklı gayrimenkul yatırımı yapmak isteyenler için Tuzla\'yı İstanbul\'un en rasyonel ilçelerinden biri yapmaktadır.'
+          }
+        ]
+      },
+      {
+        type: 'heading',
+        text: '2. Tuzla\'yı 2026\'da Kazançlı Kılan Yapısal Güçler'
+      },
+      {
+        type: 'paragraph',
+        text: 'Tuzla emlak pazarının sadece spekülatif bir büyüme değil, organik bir talep üzerine kurulu olmasının arkasında üç temel lokomotif güç bulunmaktadır:'
+      },
+      {
+        type: 'heading',
+        text: 'Sanayi, Tersane ve Beyaz Yaka Göçü'
+      },
+      {
+        type: 'paragraph',
+        text: 'Tuzla; Organize Sanayi Bölgeleri (OSB), serbest bölgeler ve tersaneler hattı ile Türkiye ekonomisinin üretim kalbidir. Bu bölgelerde istihdam edilen mühendis, yönetici ve teknik uzman kadrosu, kaliteli konut segmenti için sürekli ve nitelikli bir iç talep oluşturmaktadır. İş yerine yakın yaşama arzusu, kiralık konutların el değiştirme hızını maksimuma çıkarmaktadır.'
+      },
+      {
+        type: 'heading',
+        text: 'Üniversiteler ve Öğrenci Popülasyonu'
+      },
+      {
+        type: 'paragraph',
+        text: 'Piri Reis Üniversitesi, Sabancı Üniversitesi, İstanbul Medeniyet Üniversitesi ve Okan Üniversitesi gibi köklü eğitim kurumlarının bölgedeki varlığı, özellikle Aydınlı ve İçmeler gibi mahallelerde 1+1 ve 2+1 daire tiplerine yönelik kalıcı bir kiralık konut talebi doğurmaktadır. Üniversite akslarına yakın mülkler, boş kalma riski en düşük yatırım enstrümanlarıdır.'
+      },
+      {
+        type: 'heading',
+        text: 'Ulaşım Entegrasyonunun Tamamlanması'
+      },
+      {
+        type: 'paragraph',
+        text: 'Marmaray hattının aktif gücü, metro projelerinin entegrasyonu, Sabiha Gökçen Havalimanı\'na olan yakınlık ve TEM/E-5 otoyol bağlantıları, Tuzla\'nın "merkeze uzaklık" algısını 2026 yılı itibarıyla tamamen kırmıştır. Ulaşım ağlarının ulaştığı her lokasyon, gayrimenkulde prim demektir.'
+      },
+      {
+        type: 'heading',
+        text: '3. Bölge Bazlı Tuzla Yatırım Haritası: Nereye, Ne Alınmalı?'
+      },
+      {
+        type: 'paragraph',
+        text: 'Tuzla tek bir pazar olarak okunmamalıdır. Yatırım stratejinize göre seçmeniz gereken mahalleler ve gayrimenkul türleri keskin farklılıklar gösterir:'
+      },
+      {
+        type: 'bulletList',
+        items: [
+          {
+            bold: 'Tepeören & Orhanlı — Villa / Müstakil Konut: ',
+            text: 'Değer artışı ve üst segment yatırım hedefleyenler için pandemi sonrası başlayan yatay mimari ve müstakil yaşam talebinin 2026\'daki zirve noktası. Nitelikli site içi villa projeleri yüksek prim yapıyor.'
+          },
+          {
+            bold: 'Aydınlı & İçmeler — 1+1 / 2+1 Rezidans ve Daire: ',
+            text: 'Üniversite ve sanayi hatlarına yakınlığı sebebiyle amortisman süresi en kısa (14-15 yıl) olan bölge. Yüksek kira getirisi ve hızlı nakde çevirme imkanı sunuyor.'
+          },
+          {
+            bold: 'Tuzla Merkez & Marina — 3+1 Geniş Daire & Ticari: ',
+            text: 'Deniz ve sahil şeridi avantajıyla oturum amaçlı ailelerin ve üst gelir grubunun odağında. Likiditesi (nakde çevrilme hızı) oldukça yüksek, uzun vadeli değer koruma için ideal.'
+          }
+        ]
+      },
+      {
+        type: 'heading',
+        text: '4. 2026 Yılında Tuzla\'da Yatırım Yaparken Dikkat Edilmesi Gereken Riskler'
+      },
+      {
+        type: 'paragraph',
+        text: 'Tuzla pazarının sunduğu fırsatlar kadar, 2026 ekonomik konjonktürünün getirdiği riskleri de doğru yönetmek gerekir:'
+      },
+      {
+        type: 'bulletList',
+        items: [
+          {
+            bold: 'Doğru Fiyat Analizi: ',
+            text: 'Kredi musluklarının daraldığı bu dönemde, pazar gerçeklerinin üzerinde "köpük" fiyatla satışa çıkan mülkler uzun süre ilanda kalarak değer kaybetmektedir. Alım yaparken mutlaka profesyonel bir gayrimenkul ekspertiz desteği alınmalı, mülk pazar değerinde veya altında yakalanmalıdır.'
+          },
+          {
+            bold: 'Proje Güvenilirliği: ',
+            text: 'Topraktan veya inşaat aşamasından yapılacak yatırımlarda, yüklenici firmanın finansal gücü ve geçmiş referansları titizlikle incelenmelidir. 2026 yılı, maliyet enflasyonu sebebiyle inşaat teslim sürelerinin sarktığı bir dönem olabilmektedir.'
+          }
+        ]
+      },
+      {
+        type: 'heading',
+        text: 'Sonuç: 2026\'da Tuzla Doğru Bir Yatırım mı?'
+      },
+      {
+        type: 'paragraph',
+        text: 'Tuzla, 2026 yılında da İstanbul genelinde gayrimenkul yatırımı için kazançlı ve güvenli limanlardan biri olma özelliğini korumaktadır. Ancak pazar artık "ne alırsan prim yapar" evresinden çıkmış, "doğru lokasyonda, doğru fiyata alınan mülkün kazandırdığı" seçici bir döneme girmiştir.'
+      },
+      {
+        type: 'paragraph',
+        text: 'Nakit akışı (kira getirisi) hedefleyen yatırımcılar için Aydınlı-İçmeler hattındaki küçük metrekareli konutlar; uzun vadeli yüksek sermaye kazancı ve değer artışı hedefleyenler için ise Tepeören-Orhanlı aksındaki arsa ve villa projeleri 2026 yılının en güçlü gayrimenkul hamleleri olarak öne çıkmaktadır. Süreci rasyonel verilerle ve pazar analiziyle yönetmek için bölgeyi iyi tanıyan profesyonel bir gayrimenkul danışmanıyla ilerlemek riskinizi sıfırlayacaktır.'
       }
     ]
   }
