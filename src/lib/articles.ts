@@ -567,6 +567,137 @@ const articles: Article[] = [
         text: 'Nakit akışı (kira getirisi) hedefleyen yatırımcılar için Aydınlı-İçmeler hattındaki küçük metrekareli konutlar; uzun vadeli yüksek sermaye kazancı ve değer artışı hedefleyenler için ise Tepeören-Orhanlı aksındaki arsa ve villa projeleri 2026 yılının en güçlü gayrimenkul hamleleri olarak öne çıkmaktadır. Süreci rasyonel verilerle ve pazar analiziyle yönetmek için bölgeyi iyi tanıyan profesyonel bir gayrimenkul danışmanıyla ilerlemek riskinizi sıfırlayacaktır.'
       }
     ]
+  },
+  {
+    slug: 'pendik-gayrimenkul-yatirimi-icin-hala-kazancli-mi-2026-yili-pazar-analizi',
+    title: 'Pendik Gayrimenkul Yatırımı İçin Hala Kazançlı mı? 2026 Yılı Pazar Analizi',
+    author: 'Mahir Akar',
+    date: '2026-06-08',
+    category: 'Piyasa Analizi',
+    readTime: '8 dk',
+    excerpt: 'Pendik satılık daire, arsa ve ticari gayrimenkul piyasası 2026 yılında hala yüksek getiri vaat ediyor mu? Mahalle bazlı prim potansiyeli, amortisman süreleri ve yatırım riskleri.',
+    keywords: 'Pendik gayrimenkul, Pendik yatırım, Pendik emlak piyasası, Pendik satılık daire, Pendik konut fiyatları 2026, Pendik amortisman süresi, Pendik metrekare fiyatı',
+    content: [
+      {
+        type: 'paragraph',
+        text: 'İstanbul’un Anadolu Yakası’nda son on yılda kabuk değiştiren, sanayi ve varoş kimliğinden sıyrılarak megakentin en büyük lojistik, ulaşım ve yaşam merkezlerinden birine dönüşen Pendik, 2026 yılında da gayrimenkul yatırımcılarının birincil radarı arasındadır. Kredi ve finansman şartlarının sıkılaştığı, alıcıların mülk seçiminde kılı kırk yardığı 2026 konjonktüründe Pendik, sunduğu çeşitlilikle öne çıkmaktadır.'
+      },
+      {
+        type: 'paragraph',
+        text: 'Peki, Pendik satılık daire, arsa ve ticari gayrimenkul piyasası 2026 yılında yatırımcısına hala yüksek getiri vaat ediyor mu? Hangi mahalleler prim potansiyeli taşıyor, hangileri doyuma ulaştı? Bu analizde, Pendik emlak pazarını rasyonel ve sayısal verilerle masaya yatırıyoruz.'
+      },
+      {
+        type: 'heading',
+        text: '1. 2026 Yılı İtibarıyla Pendik Makro Pazar Verileri'
+      },
+      {
+        type: 'paragraph',
+        text: '2026 yılı gayrimenkul endeksleri incelendiğinde Pendik, İstanbul’un likiditesi (nakde çevrilme hızı) en yüksek ilçelerinden biri olarak dikkat çekmektedir.'
+      },
+      {
+        type: 'bulletList',
+        items: [
+          {
+            bold: 'Metrekare Birim Fiyatları: ',
+            text: 'Pendik’te konut metrekare satış fiyatları, sahil şeridi ile kuzey aksı (Kurtköy-Yenişehir) arasında ciddi bir makas göstermektedir. 2026 ortalamalarına göre metrekare fiyatları 38.000 TL ile 55.000 TL bandında yoğunlaşmaktadır. Bu geniş fiyat yelpazesi, her bütçeden yatırımcının ilçede konumlanabilmesini sağlamaktadır.'
+          },
+          {
+            bold: 'Amortisman (Geri Dönüş) Süreleri: ',
+            text: 'Pendik, özellikle Kurtköy ve havaalanı çevresindeki genç nüfus ve beyaz yaka yoğunluğu sayesinde güçlü bir kira çarpanına sahiptir. İlçe genelinde konut geri dönüş süreleri 15 ila 17 yıl arasında değişmektedir. Bu oran, İstanbul ortalaması olan 22 yılın oldukça altındadır.'
+          }
+        ]
+      },
+      {
+        type: 'heading',
+        text: '2. Pendik Emlak Pazarını 2026’da Dinamik Kılan Faktörler'
+      },
+      {
+        type: 'paragraph',
+        text: 'Pendik’in yatırım değerini korumasının arkasında tesadüfler değil, devlet ve özel sektör eliyle tamamlanmış makro yatırımlar yer almaktadır.'
+      },
+      {
+        type: 'heading',
+        text: 'Multimodal Ulaşım Ağının Kalbi Olması'
+      },
+      {
+        type: 'paragraph',
+        text: 'Pendik; Sabiha Gökçen Havalimanı, Pendik Marinası (İDO), Yüksek Hızlı Tren (YHT) istasyonu, M4 Kadıköy-Sabiha Gökçen metrosu ve Kuzey Marmara Otoyolu bağlantılarının tamamına ev sahipliği yapmaktadır. Dünyada ve Türkiye’de ulaşım akslarının kesiştiği lokasyonlarda gayrimenkul değer kaybı yaşanması yapısal olarak mümkün değildir.'
+      },
+      {
+        type: 'heading',
+        text: 'Teknopark İstanbul ve Beyaz Yaka İstihdamı'
+      },
+      {
+        type: 'paragraph',
+        text: 'Kurtköy bölgesinde yer alan Teknopark İstanbul, binlerce yüksek teknoloji mühendisine ve savunma sanayii çalışanına istihdam sağlamaktadır. 2026 yılı itibarıyla genişleme etapları devam eden bu merkez, üst ve orta-üst gelir grubundan oluşan nitelikli bir konut alıcı/kiracı kitlesini kalıcı olarak bölgeye çekmektedir.'
+      },
+      {
+        type: 'heading',
+        text: 'Kentsel Dönüşüm ve Likidite Gücü'
+      },
+      {
+        type: 'paragraph',
+        text: 'Pendik Merkez, Batı ve Doğu mahallelerinde eski yapı stokunun kentsel dönüşümle yenilenmesi, bölgenin çehresini değiştirmektedir. Deprem algısının yüksek olduğu bu dönemde, Pendik’teki yeni ve deprem yönetmeliğine uygun projelere olan talep organik olarak artmaktadır.'
+      },
+      {
+        type: 'heading',
+        text: '3. Bölge Bazlı Pendik Yatırım Haritası: Nereye, Ne Alınmalı?'
+      },
+      {
+        type: 'paragraph',
+        text: 'Pendik yüzölçümü ve nüfus yapısı gereği homojen bir pazar değildir. Doğru yatırım için ilçeyi üç ana segmente ayırmak gerekir.'
+      },
+      {
+        type: 'bulletList',
+        items: [
+          {
+            bold: 'Kurtköy & Yenişehir — 1+1 / 2+1 Rezidans & Kurumsal: ',
+            text: 'Hızlı amortisman ve düzenli kira getirisi arayanlar için öncelikli aks. Teknopark, havalimanı ve üniversite çalışanlarının birincil tercihi. 2026’da boş kalma riski en düşük, kiralama hızı en yüksek bölge.'
+          },
+          {
+            bold: 'Sahil Hattı (Batı, Doğu, Bahçelievler) — 3+1 / 4+1 Geniş Konut & Prestij Projeleri: ',
+            text: 'Değer koruma ve lüks oturum odaklı alıcıların hedefinde. Deniz manzarası, marina ve YHT yakınlığıyla prim oranı istikrarlı, likiditesi yüksek.'
+          },
+          {
+            bold: 'Güllübağlar, Velibaba, Yayalar — Topraktan Projeler & Gelişim Aksı: ',
+            text: 'Metro hatlarının geçiş güzergahında olan ve kentsel dönüşümün/yeni projelerin yoğunlaştığı alan. Maksimum sermaye kazancı hedefleyen yatırımcılar için öncelikli gelişme ekseni.'
+          }
+        ]
+      },
+      {
+        type: 'heading',
+        text: '4. 2026’da Pendik’te Yatırım Yaparken Yönetilmesi Gereken Riskler'
+      },
+      {
+        type: 'paragraph',
+        text: 'Pendik’te risk yönetimi, pazardaki fırsatları doğru okumak kadar hassas bir uzmanlık ister.'
+      },
+      {
+        type: 'bulletList',
+        items: [
+          {
+            bold: 'Fiyat Makası ve Köpük Analizi: ',
+            text: 'Pendik’te çok fazla proje alternatifi olması, bazı bölgelerde rayiç bedelin üzerinde agresif fiyatlamalara yol açabilmektedir. Alım yapmadan önce mülkün bölgedeki geçmiş ilanlarla ve gerçekleşen satış tonajlarıyla karşılaştırılması, yani doğru bir gayrimenkul ekspertiz sürecinden geçirilmesi şarttır.'
+          },
+          {
+            bold: 'Sosyal Altyapı Farklılıkları: ',
+            text: 'Kuzey aksındaki (Kurtköy) planlı kentleşme ile güneydeki bazı eski mahallelerin plansız yapısı farklı prim grafikleri üretir. Sadece fiyata bakarak “ucuz” mülk almak yerine, gelişme trendi olan caddeler tercih edilmelidir.'
+          }
+        ]
+      },
+      {
+        type: 'heading',
+        text: 'Sonuç: 2026’da Pendik Doğru Bir Yatırım mı?'
+      },
+      {
+        type: 'paragraph',
+        text: 'Pendik, 2026 yılında da değerini kaybetmeyecek, aksine İstanbul’un ticari ve lojistik ağırlığı arttıkça yatırımcısına kazandırmaya devam edecek bir ilçedir.'
+      },
+      {
+        type: 'paragraph',
+        text: 'Eğer stratejiniz yüksek kira getirisi ve kısa amortisman süresi ise Kurtköy-Yenişehir aksındaki genç projelere; eğer stratejiniz kentsel dönüşüm avantajıyla alırken kazanmak ve orta vadede yüksek sermaye kazancı elde etmek ise Yayalar-Velibaba-Güllübağlar hattındaki yeni konut projelerine odaklanmalısınız. Pazardaki yoğun ilan kalabalığı arasında doğru mülkü, doğru fiyata ve hukuki pürüzleri ayıklayarak satın almak için Pendik bölgesine hakim profesyonel bir gayrimenkul danışmanı ile çalışmak yatırım başarınızı garantileyecektir.'
+      }
+    ]
   }
 ];
 
