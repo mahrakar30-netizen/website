@@ -567,6 +567,325 @@ const articles: Article[] = [
         text: 'Nakit akışı (kira getirisi) hedefleyen yatırımcılar için Aydınlı-İçmeler hattındaki küçük metrekareli konutlar; uzun vadeli yüksek sermaye kazancı ve değer artışı hedefleyenler için ise Tepeören-Orhanlı aksındaki arsa ve villa projeleri 2026 yılının en güçlü gayrimenkul hamleleri olarak öne çıkmaktadır. Süreci rasyonel verilerle ve pazar analiziyle yönetmek için bölgeyi iyi tanıyan profesyonel bir gayrimenkul danışmanıyla ilerlemek riskinizi sıfırlayacaktır.'
       }
     ]
+  },
+  {
+    slug: 'gayrimenkul-satisinda-deger-artis-kazanci-vergisi-nasil-hesaplanir',
+    title: 'Gayrimenkul Satışında Değer Artış Kazancı Vergisi Nasıl Hesaplanır?',
+    author: 'Mahir Akar',
+    date: '2026-06-13',
+    category: 'Gayrimenkul Rehberi',
+    readTime: '8 dk',
+    excerpt: 'Evini, arsasını veya iş yerini elden çıkaran mülk sahiplerinin karşılaştığı en önemli mali yükümlülüklerden biri olan değer artış kazancı vergisini adım adım inceliyoruz. 2026 güncel istisna tutarları ve hesaplama örneği.',
+    keywords: 'gayrimenkul değer artış kazancı, vergi hesaplama, Yİ-ÜFE endeksleme, gelir vergisi dilimleri, 5 yıl kuralı, istisna tutarı 2026, tapu harcı, gayrimenkul satış vergisi',
+    content: [
+      {
+        type: 'paragraph',
+        text: 'Değer artış kazancı vergisi, bir gayrimenkulün satın alma tarihinden itibaren 5 yıl içinde satılmasıyla elde edilen kar üzerinden hesaplanan bir gelir vergisi türüdür. Bu vergi, kısa vadeli gayrimenkul alım-satımlarından elde edilen ranta dayalı gelirin vergilendirilmesini amaçlar.'
+      },
+      {
+        type: 'paragraph',
+        text: 'Gayrimenkul sektöründe mülk satın almak kadar, sahip olunan mülkü doğru zamanda ve yasal yükümlülükleri eksiksiz yerine getirerek satmak da büyük önem taşır. Evini, arsasını veya iş yerini elden çıkaran mülk sahiplerinin karşılaştığı en önemli mali yükümlülüklerden biri değer artış kazancı vergisi uygulamasıdır.'
+      },
+      {
+        type: 'paragraph',
+        text: 'Piyasa gerçeklerine hakim olmadan yapılan satışlar, sonradan ciddi vergi cezaları ve gecikme faizleri ile karşılaşmanıza neden olabilir. Bu rehberde, gayrimenkul satışında değer artış kazancı vergisinin ne olduğunu, hangi şartlarda doğduğunu ve güncel verilerle nasıl hesaplandığını adım adım inceleyeceğiz.'
+      },
+      {
+        type: 'heading',
+        text: '1. Değer Artış Kazancı Vergisi Nedir?'
+      },
+      {
+        type: 'paragraph',
+        text: 'Bir gayrimenkulün satın alındığı (iktisap edildiği) tarihten itibaren belirli bir süre içinde satılması sonucu elde edilen kar, gelir vergisi kanununa göre "Diğer Kazanç ve İratlar" kapsamında vergilendirilir. Bu vergi türüne değer artış kazancı vergisi denir. Buradaki temel amaç, ticari bir organizasyon olmasa bile kısa vadeli gayrimenkul alım-satımlarından elde edilen ranta dayalı gelirin vergilendirilmesidir.'
+      },
+      {
+        type: 'heading',
+        text: '5 Yıl Kuralı Nedir?'
+      },
+      {
+        type: 'paragraph',
+        text: 'Gelir Vergisi Kanunu\'nun Mükerrer 80. maddesine göre, satılan taşınmaz edinme tarihinden itibaren 5 tam yıl (60 ay) geçtikten sonra elden çıkarılırsa değer artış kazancı vergisi doğmaz. 5 yıllık süre dolmadan yapılan satışlar ise elde edilen karın miktarı ne olursa olsun vergi hesaplamasına tabi tutulur. Bu, değer artış kazancı vergisinin doğmasındaki en kritik eşiktir.'
+      },
+      {
+        type: 'heading',
+        text: 'Önemli Muafiyet (Miras ve Bağış)'
+      },
+      {
+        type: 'paragraph',
+        text: 'Gayrimenkul eğer miras (veraset) yoluyla kalmışsa veya ivazsız (bağış, hediye) olarak edinilmişse, bu mülklerin satışında 5 yıl kuralı aranmaz. Miras kalan bir evi ertesi gün bile satsanız değer artış kazancı vergisi ödemezsiniz.'
+      },
+      {
+        type: 'heading',
+        text: '2. Değer Artış Kazancı Vergisi Nasıl Hesaplanır?'
+      },
+      {
+        type: 'paragraph',
+        text: 'Hesaplama süreci sadece "satış fiyatından alış fiyatını çıkarmak" kadar basit değildir. Yüksek enflasyonist ortamlarda mükelleflerin haksız vergi ödemesini engellemek adına devlet, endeksleme adı verilen bir koruma mekanizması uygular.'
+      },
+      {
+        type: 'paragraph',
+        text: 'Hesaplama adımları şu şekilde ilerler:'
+      },
+      {
+        type: 'heading',
+        text: 'Adım 1: Enflasyon Endekslemesi (Yİ-ÜFE) Yapılması'
+      },
+      {
+        type: 'paragraph',
+        text: 'Mülkün geçmişteki alış bedeli, paranın bugünkü değerine getirilmek için Yurt İçi Üretici Fiyat Endeksi (Yİ-ÜFE) kullanılarak güncellenir.'
+      },
+      {
+        type: 'bulletList',
+        items: [
+          {
+            bold: 'Şart: ',
+            text: 'Endeksleme yapılabilmesi için alış tarihi ile satış tarihinden önceki ayların Yİ-ÜFE endeksleri arasındaki artış oranının en az %10 veya üzerinde olması gerekir.'
+          },
+          {
+            bold: 'Formül: ',
+            text: 'Alış bedeli, satıştan önceki ayın endeksinin alıştan önceki ayın endeksine bölünmesiyle çıkan katsayı ile çarpılır. Böylece "Endekslenmiş Maliyet" bulunur.'
+          }
+        ]
+      },
+      {
+        type: 'heading',
+        text: 'Adım 2: Safi Kazancın Bulunması'
+      },
+      {
+        type: 'paragraph',
+        text: 'Satış bedelinden; endekslenmiş alış maliyeti, satıcının ödediği tapu harcı ve varsa mülkün satışına yönelik doğrudan yapılan masraflar (ilan, ekspertiz giderleri vb.) düşülerek net kar (safi kazanç) elde edilir.'
+      },
+      {
+        type: 'heading',
+        text: 'Adım 3: Yıllık İstisna Tutarının Düşülmesi'
+      },
+      {
+        type: 'paragraph',
+        text: 'Her yıl devlet tarafından belirlenen yasal bir muafiyet sınırı vardır. Safi kazanç bu istisna tutarını aşmıyorsa beyanname verilmez. Aşıyorsa, istisna tutarı kardan düşülerek "Vergi Matrahı" hesaplanır. 2026 yılı için değer artış kazancı istisna tutarı 150.000 TL olarak belirlenmiştir.'
+      },
+      {
+        type: 'bulletList',
+        items: [
+          {
+            bold: '2026 Yılı İstisna Tutarı: ',
+            text: '150.000 TL (2025 yılı satışları için bu tutar 120.000 TL olarak uygulanmıştır).'
+          }
+        ]
+      },
+      {
+        type: 'heading',
+        text: 'Adım 4: Gelir Vergisi Tarifesinin Uygulanması'
+      },
+      {
+        type: 'paragraph',
+        text: 'İstisna düşüldükten sonra kalan matrah, o yılın ücret dışı gelirler için geçerli olan artan oranlı gelir vergisi dilimlerine (%15\'ten başlayıp %40\'a varan oranlar) tabi tutularak ödenecek net vergi belirlenir.'
+      },
+      {
+        type: 'heading',
+        text: '3. Güncel Hesaplama Örneği'
+      },
+      {
+        type: 'paragraph',
+        text: 'Sürecin daha net anlaşılması için hipotetik bir senaryo üzerinden hesaplama yapalım:'
+      },
+      {
+        type: 'bulletList',
+        items: [
+          {
+            bold: 'Alış Tarihi ve Bedeli: ',
+            text: 'Ocak 2022 / 2.000.000 TL'
+          },
+          {
+            bold: 'Satış Tarihi ve Bedeli: ',
+            text: 'Nisan 2026 / 8.000.000 TL'
+          },
+          {
+            bold: 'Varsayım: ',
+            text: 'İlgili dönemdeki Yİ-ÜFE artış oranının %100 olduğunu kabul edelim (Katsayı: 2.0).'
+          }
+        ]
+      },
+      {
+        type: 'bulletList',
+        items: [
+          {
+            bold: 'Gayrimenkul Satış Bedeli: ',
+            text: '8.000.000 TL'
+          },
+          {
+            bold: 'Endekslenmiş Maliyet Bedeli: ',
+            text: '2.000.000 TL x 2.0 = 4.000.000 TL'
+          },
+          {
+            bold: 'Ödenen Tapu Harcı ve Giderler (Örn): ',
+            text: '100.000 TL'
+          },
+          {
+            bold: 'Safi Kazanç (Net Kar): ',
+            text: '8.000.000 - (4.000.000 + 100.000) = 3.900.000 TL'
+          },
+          {
+            bold: '2026 Yılı Yasal İstisna Tutarı: ',
+            text: '150.000 TL'
+          },
+          {
+            bold: 'Vergiye Tabi Matrah: ',
+            text: '3.900.000 - 150.000 = 3.750.000 TL'
+          }
+        ]
+      },
+      {
+        type: 'paragraph',
+        text: 'Bulunan 3.750.000 TL\'lik matrah, 2026 yılı gelir vergisi dilimlerine göre kademeli olarak vergilendirilir ve ödenecek nihai gelir vergisi ortaya çıkar.'
+      },
+      {
+        type: 'heading',
+        text: 'Beyan ve Ödeme Dönemi Ne Zamandır?'
+      },
+      {
+        type: 'paragraph',
+        text: 'Bir takvim yılı içinde (örneğin 2026 yılında) yapılan vergiye tabi gayrimenkul satışlarının beyannamesi, ertesi yılın Mart ayı (1-31 Mart 2027) sonuna kadar Gelir İdaresi Başkanlığı\'nın Hazır Beyan Sistemi üzerinden dijital olarak veya vergi dairesine elden verilir. Hesaplanan vergi genellikle Mart ve Temmuz aylarında iki eşit taksitte ödenir.'
+      },
+      {
+        type: 'heading',
+        text: 'Sonuç'
+      },
+      {
+        type: 'paragraph',
+        text: 'Gayrimenkul alım-satım süreçlerinde tapu harcını düşük göstermek veya rayiç bedel oyunlarına başvurmak, idarenin geriye dönük banka kayıtları ve gayrimenkul ekspertiz raporları üzerinden yaptığı incelemelerle kolayca tespit edilmektedir. Satış öncesinde cezai yaptırımlarla karşılaşmamak ve yasal haklarınızı (endeksleme, gider indirimi vb.) doğru kullanabilmek adına, süreci bölgenizde uzman kurumsal bir gayrimenkul danışmanı ve mali müşavir ortaklığıyla yürütmeniz finansal güvenliğiniz açısından en doğru adımdır.'
+      }
+    ]
+  },
+  {
+    slug: 'pendik-gayrimenkul-yatirimi-icin-hala-kazancli-mi-2026-yili-pazar-analizi',
+    title: 'Pendik Gayrimenkul Yatırımı İçin Hala Kazançlı mı? 2026 Yılı Pazar Analizi',
+    author: 'Mahir Akar',
+    date: '2026-06-13',
+    category: 'Piyasa Analizi',
+    readTime: '9 dk',
+    excerpt: 'Pendik satılık daire ve arsa piyasası, 2026 yılında yatırımcısına hala yüksek getiri vaat ediyor mu? Metrekare fiyatları, amortisman süreleri ve bölge bazlı yatırım fırsatları.',
+    keywords: 'Pendik gayrimenkul, Pendik yatırım, Pendik emlak piyasası, Pendik satılık daire, Pendik konut fiyatları 2026, Pendik amortisman süresi, Pendik metrekare fiyatı, Kurtköy yatırım',
+    content: [
+      {
+        type: 'paragraph',
+        text: 'Pendik, İstanbul\'un Anadolu Yakası\'nda lojistik, ulaşım ve yaşam merkezlerinden birine dönüşen, 2026 yılında da gayrimenkul yatırımcıları için yüksek getiri potansiyeli sunan bir ilçedir. Geniş fiyat yelpazesi ve multimodal ulaşım ağı ile her bütçeden yatırımcıya hitap etmektedir.'
+      },
+      {
+        type: 'paragraph',
+        text: 'İstanbul\'un Anadolu Yakası\'nda son on yılda kabuk değiştiren, sanayi ve varoş kimliğinden sıyrılarak megakentin en büyük lojistik, ulaşım ve yaşam merkezlerinden birine dönüşen Pendik, 2026 yılında da gayrimenkul yatırımcılarının birincil radarı arasındadır. Kredi ve finansman şartlarının sıkılaştığı, alıcıların mülk seçiminde kılı kırk yardığı 2026 konjonktüründe Pendik, sunduğu çeşitlilikle öne çıkmaktadır.'
+      },
+      {
+        type: 'paragraph',
+        text: 'Peki, Pendik satılık daire, arsa ve ticari gayrimenkul piyasası 2026 yılında yatırımcısına hala yüksek getiri vaat ediyor mu? Hangi mahalleler prim potansiyeli taşıyor, hangileri doyuma ulaştı? Bu analizde, Pendik emlak pazarını rasyonel ve sayısal verilerle masaya yatırıyoruz.'
+      },
+      {
+        type: 'heading',
+        text: '1. 2026 Yılı İtibarıyla Pendik Makro Pazar Verileri'
+      },
+      {
+        type: 'paragraph',
+        text: '2026 yılı gayrimenkul endeksleri incelendiğinde Pendik, İstanbul\'un likiditesi (nakde çevrilme hızı) en yüksek ilçelerinden biri olarak dikkat çekmektedir. Pendik, 2026 yılı gayrimenkul endekslerinde İstanbul\'un likiditesi en yüksek ilçelerinden biri olarak öne çıkmaktadır.'
+      },
+      {
+        type: 'bulletList',
+        items: [
+          {
+            bold: 'Metrekare Birim Fiyatları: ',
+            text: 'Pendik\'te konut metrekare satış fiyatları, sahil şeridi ile kuzey aksı (Kurtköy-Yenişehir) arasında ciddi bir makas göstermektedir. 2026 ortalamalarına göre metrekare fiyatları 38.000 TL ile 55.000 TL bandında yoğunlaşmaktadır.'
+          },
+          {
+            bold: 'Amortisman (Geri Dönüş) Süreleri: ',
+            text: 'Pendik\'te konut geri dönüş süreleri 15 ila 17 yıl arasında değişmektedir. Bu oran, İstanbul ortalaması olan 22 yılın oldukça altındadır.'
+          }
+        ]
+      },
+      {
+        type: 'heading',
+        text: '2. Pendik Emlak Pazarını 2026\'da Dinamik Kılan Faktörler'
+      },
+      {
+        type: 'paragraph',
+        text: 'Pendik\'in yatırım değerini korumasının arkasında tesadüfler değil, devlet ve özel sektör eliyle tamamlanmış makro yatırımlar yer almaktadır:'
+      },
+      {
+        type: 'heading',
+        text: 'Multimodal Ulaşım Ağının Kalbi Olması'
+      },
+      {
+        type: 'paragraph',
+        text: 'Pendik; Sabiha Gökçen Havalimanı, Pendik Marinası (İDO), Yüksek Hızlı Tren (YHT) istasyonu, M4 Kadıköy-Sabiha Gökçen metrosu ve Kuzey Marmara Otoyolu bağlantılarının tamamına ev sahipliği yapmaktadır. Dünyada ve Türkiye\'de ulaşım akslarının kesiştiği lokasyonlarda gayrimenkul değer kaybı yaşanması yapısal olarak mümkün değildir.'
+      },
+      {
+        type: 'heading',
+        text: 'Teknopark İstanbul ve Beyaz Yaka İstihdamı'
+      },
+      {
+        type: 'paragraph',
+        text: 'Kurtköy bölgesinde yer alan Teknopark İstanbul, binlerce yüksek teknoloji mühendisine ve savunma sanayii çalışanına istihdam sağlamaktadır. 2026 yılı itibarıyla genişleme etapları devam eden bu merkez, üst ve orta-üst gelir grubundan oluşan nitelikli bir konut alıcı/kiracı kitlesini kalıcı olarak bölgeye çekmektedir.'
+      },
+      {
+        type: 'heading',
+        text: 'Kentsel Dönüşüm ve Likidite Gücü'
+      },
+      {
+        type: 'paragraph',
+        text: 'Pendik Merkez, Batı ve Doğu mahallelerinde eski yapı stokunun kentsel dönüşümle yenilenmesi, bölgenin çehresini değiştirmektedir. Deprem algısının yüksek olduğu bu dönemde, Pendik\'teki yeni ve deprem yönetmeliğine uygun projelere olan talep organik olarak artmaktadır.'
+      },
+      {
+        type: 'heading',
+        text: '3. Bölge Bazlı Pendik Yatırım Haritası: Nereye, Ne Alınmalı?'
+      },
+      {
+        type: 'paragraph',
+        text: 'Pendik yüzölçümü ve nüfus yapısı gereği homojen bir pazar değildir. Doğru yatırım için ilçeyi üç ana segmente ayırmak gerekir:'
+      },
+      {
+        type: 'bulletList',
+        items: [
+          {
+            bold: 'Kurtköy & Yenişehir — 1+1 / 2+1 Rezidans: ',
+            text: 'Teknopark, havalimanı ve üniversite çalışanlarının birincil tercihi. Hızlı amortisman ve düzenli kira getirisi hedefleyenler için 2026\'da boş kalma riski en düşük bölge.'
+          },
+          {
+            bold: 'Sahil Hattı (Batı, Doğu, Bahçelievler) — 3+1 / 4+1 Geniş Konut: ',
+            text: 'Deniz manzarası, Marina ve YHT avantajı ile oturum amaçlı yüksek bütçeli alıcıların odağında. Prim oranı istikrarlı, likiditesi yüksektir.'
+          },
+          {
+            bold: 'Güllübağlar, Velibaba, Yayalar — Gelişim Aksı: ',
+            text: 'Metro hatlarının geçiş güzergahında olan ve kentsel dönüşümün yoğunlaştığı bölgeler. Maksimum sermaye kazancı hedefleyenler için ideal.'
+          }
+        ]
+      },
+      {
+        type: 'heading',
+        text: '4. 2026\'da Pendik\'te Yatırım Yaparken Yönetilmesi Gereken Riskler'
+      },
+      {
+        type: 'bulletList',
+        items: [
+          {
+            bold: 'Fiyat Makası ve Köpük Analizi: ',
+            text: 'Pendik\'te çok fazla proje alternatifi olması, bazı bölgelerde rayiç bedelin üzerinde agresif fiyatlamalara yol açabilmektedir. Alım yapmadan önce mülkün bölgedeki geçmiş ilanlarla ve gerçekleşen satış tonajlarıyla karşılaştırılması şarttır.'
+          },
+          {
+            bold: 'Sosyal Altyapı Farklılıkları: ',
+            text: 'Kuzey aksındaki (Kurtköy) planlı kentleşme ile güneydeki bazı eski mahallelerin plansız yapısı farklı prim grafikleri üretir. Sadece fiyata bakarak "ucuz" mülk almak yerine, gelişme trendi olan caddeler tercih edilmelidir.'
+          }
+        ]
+      },
+      {
+        type: 'heading',
+        text: 'Sonuç: 2026\'da Pendik Doğru Bir Yatırım mı?'
+      },
+      {
+        type: 'paragraph',
+        text: 'Pendik, 2026 yılında da değerini kaybetmeyecek, aksine İstanbul\'un ticari ve lojistik ağırlığı arttıkça yatırımcısına kazandırmaya devam edecek bir ilçedir.'
+      },
+      {
+        type: 'paragraph',
+        text: 'Eğer stratejiniz yüksek kira getirisi ve kısa amortisman süresi ise Kurtköy-Yenişehir aksındaki genç projelere; eğer stratejiniz kentsel dönüşüm avantajıyla alırken kazanmak ve orta vadede yüksek sermaye kazancı elde etmek ise Yayalar-Velibaba-Güllübağlar hattındaki yeni konut projelerine odaklanmalısınız. Pazardaki yoğun ilan kalabalığı arasında doğru mülkü, doğru fiyata ve hukuki pürüzleri ayıklayarak satın almak için Pendik bölgesine hakim profesyonel bir gayrimenkul danışmanı ile çalışmak yatırım başarınızı garantileyecektir.'
+      }
+    ]
   }
 ];
 

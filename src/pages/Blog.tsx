@@ -85,6 +85,15 @@ const Blog: React.FC = () => {
       date: "13 Haziran 2026",
       readTime: "8 dk",
       slug: "gayrimenkul-satisinda-deger-artis-kazanci-vergisi-nasil-hesaplanir"
+    },
+    {
+      id: 9,
+      tag: "Piyasa Analizi",
+      title: "Pendik Gayrimenkul Yatırımı İçin Hala Kazançlı mı? 2026 Yılı Pazar Analizi",
+      excerpt: "Pendik satılık daire ve arsa piyasası, 2026 yılında yatırımcısına hala yüksek getiri vaat ediyor mu? Metrekare fiyatları, amortisman süreleri ve bölge bazlı yatırım fırsatları.",
+      date: "13 Haziran 2026",
+      readTime: "9 dk",
+      slug: "pendik-gayrimenkul-yatirimi-icin-hala-kazancli-mi-2026-yili-pazar-analizi"
     }
   ];
 
