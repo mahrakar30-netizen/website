@@ -65,7 +65,7 @@ a {
   transition: color var(--transition-fast);
 }
 
-a:hover {
+a:not(.btn):hover {
   color: var(--accent-color);
 }
 
