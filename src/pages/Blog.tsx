@@ -74,6 +74,14 @@ const Blog: React.FC = () => {
       excerpt: "Tuzla satılık daire ve arsa piyasası, 2026 yılında da o eski yüksek prim potansiyelini koruyor mu? Amortisman süreleri, metrekare fiyatları ve bölge bazlı fırsatlar.",
       date: "30 Mayıs 2026",
       readTime: "7 dk"
+    },
+    {
+      id: 8,
+      tag: "Gayrimenkul Rehberi",
+      title: "Gayrimenkul Satışında Değer Artış Kazancı Vergisi Nasıl Hesaplanır?",
+      excerpt: "Evini, arsasını veya iş yerini elden çıkaran mülk sahiplerinin karşılaştığı en önemli mali yükümlülüklerden biri olan değer artış kazancı vergisini adım adım inceliyoruz. 2026 güncel istisna tutarları ve hesaplama örneği.",
+      date: "13 Haziran 2026",
+      readTime: "8 dk"
     }
   ];
 

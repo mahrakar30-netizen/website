@@ -56,24 +56,50 @@ const MakaleDetay: React.FC = () => {
   useEffect(() => {
     if (!article) return;
 
-    const jsonLd = {
-      '@context': 'https://schema.org',
-      '@type': 'Article',
-      headline: article.title,
-      author: {
-        '@type': 'Person',
-        name: article.author
-      },
-      datePublished: article.date,
-      publisher: {
-        '@type': 'Person',
-        name: article.author
+    const schemas: any[] = [
+      {
+        '@context': 'https://schema.org',
+        '@type': 'Article',
+        headline: article.title,
+        author: {
+          '@type': 'Person',
+          name: article.author
+        },
+        datePublished: article.date,
+        publisher: {
+          '@type': 'Person',
+          name: article.author
+        }
       }
-    };
+    ];
+
+    const faqPairs: { question: string; answer: string }[] = [];
+    for (let i = 0; i < article.content.length - 1; i++) {
+      const block = article.content[i];
+      const nextBlock = article.content[i + 1];
+      if (block.type === 'heading' && nextBlock.type === 'paragraph' && block.text.includes('?')) {
+        faqPairs.push({ question: block.text, answer: nextBlock.text });
+      }
+    }
+
+    if (faqPairs.length > 0) {
+      schemas.push({
+        '@context': 'https://schema.org',
+        '@type': 'FAQPage',
+        mainEntity: faqPairs.map(pair => ({
+          '@type': 'Question',
+          name: pair.question,
+          acceptedAnswer: {
+            '@type': 'Answer',
+            text: pair.answer
+          }
+        }))
+      });
+    }
 
     const script = document.createElement('script');
     script.type = 'application/ld+json';
-    script.textContent = JSON.stringify(jsonLd);
+    script.textContent = JSON.stringify(schemas.length === 1 ? schemas[0] : { '@context': 'https://schema.org', '@graph': schemas });
     document.head.appendChild(script);
 
     return () => {
