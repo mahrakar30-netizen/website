@@ -65,7 +65,8 @@ const Blog: React.FC = () => {
       title: "Sahibinden Ev Satmanın Riskleri ve Profesyonel Desteğin Sağladığı 5 Avantaj",
       excerpt: "Sahibinden ev satmak düşündüğünüz kadar avantajlı olmayabilir. Bu rehberde, bireysel satışın riskleri ve profesyonel emlak danışmanı ile çalışmanın sağladığı 5 kritik avantajı objektif verilerle inceliyoruz.",
       date: "30 Mayıs 2026",
-      readTime: "7 dk"
+      readTime: "7 dk",
+      slug: "sahibinden-ev-satmanin-riskleri-ve-profesyonel-destegin-sagladigi-5-avantaj"
     },
     {
       id: 7,
@@ -73,7 +74,8 @@ const Blog: React.FC = () => {
       title: "Tuzla Hala Gayrimenkul Yatırımı İçin Kazançlı mı? 2026 Pazar Analizi",
       excerpt: "Tuzla satılık daire ve arsa piyasası, 2026 yılında da o eski yüksek prim potansiyelini koruyor mu? Amortisman süreleri, metrekare fiyatları ve bölge bazlı fırsatlar.",
       date: "30 Mayıs 2026",
-      readTime: "7 dk"
+      readTime: "7 dk",
+      slug: "tuzla-hala-gayrimenkul-yatirimi-icin-kazancli-mi-2026-yili-pazar-analizi"
     },
     {
       id: 8,
@@ -81,7 +83,8 @@ const Blog: React.FC = () => {
       title: "Gayrimenkul Satışında Değer Artış Kazancı Vergisi Nasıl Hesaplanır?",
       excerpt: "Evini, arsasını veya iş yerini elden çıkaran mülk sahiplerinin karşılaştığı en önemli mali yükümlülüklerden biri olan değer artış kazancı vergisini adım adım inceliyoruz. 2026 güncel istisna tutarları ve hesaplama örneği.",
       date: "13 Haziran 2026",
-      readTime: "8 dk"
+      readTime: "8 dk",
+      slug: "gayrimenkul-satisinda-deger-artis-kazanci-vergisi-nasil-hesaplanir"
     }
   ];
 
@@ -110,7 +113,11 @@ const Blog: React.FC = () => {
                   <span className="dot-divider">•</span>
                   <span><BookOpen size={14} className="inline-icon" /> {post.readTime}</span>
                 </div>
-                <a href="#" className="read-more">Makaleyi Oku <ArrowRight size={16} /></a>
+                {post.slug ? (
+                  <a href={`/makaleler/${post.slug}`} className="read-more">Makaleyi Oku <ArrowRight size={16} /></a>
+                ) : (
+                  <span className="read-more disabled">Makaleyi Oku <ArrowRight size={16} /></span>
+                )}
               </div>
             </article>
           ))}
