@@ -31,6 +31,19 @@
   align-items: start;
 }
 
+.about-photo {
+  margin-bottom: 32px;
+}
+
+.profile-image {
+  width: 100%;
+  max-width: 280px;
+  height: auto;
+  border-radius: 16px;
+  box-shadow: var(--shadow-md);
+  display: block;
+}
+
 .about-text {
   padding: 48px;
   background: var(--bg-secondary);

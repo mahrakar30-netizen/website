@@ -1,7 +1,15 @@
 # Mahir Akar - Gayrimenkul Danışmanlığı
 > https://mahirakarremax.com
 
-Tuzla, Pendik ve Kartal bölgelerinde veri odaklı gayrimenkul danışmanlığı. Mahir Akar, Remax Balance çatısı altında mülk değerleme, satış danışmanlığı ve yatırım danışmanlığı hizmetleri sunmaktadır.
+Tuzla, Pendik ve Kartal bölgelerinde veri odaklı gayrimenkul danışmanlığı. Mahir Akar, Remax Balance çatısı altında mülk değerleme, satış danışmanlığı ve yatırım danışmanlığı hizmetleri sunmaktadır. %98 fiyat doğruluk oranı ve ortalama 45 günde satış süresi ile profesyonel emlak hizmeti.
+
+## Services
+
+- **Mülk Değerleme ve Fiyat Analizi** - Bilimsel veriye dayalı, karşılaştırmalı piyasa analizi (CMA) ile ücretsiz gayrimenkul ekspertiz raporu
+- **Konut Satış Danışmanlığı** - Stratejik fiyatlandırma, profesyonel fotoğrafçılık, sosyal medya reklamcılığı ve pazarlık yönetimi
+- **Kiralama Yönetimi** - Kiracı eşleştirme, risk yönetimi, hukuki destek
+- **Yatırım Danışmanlığı** - Veri odaklı alım-satım zamanlaması, bölge analizi, portföy stratejisi
+- **Sosyolojik Eşleştirme Sistemi** - Mülkleri doğru demografik alıcı profiliyle buluşturan özgün metodoloji
 
 ## Pages
 
@@ -16,14 +24,11 @@ Tuzla, Pendik ve Kartal bölgelerinde veri odaklı gayrimenkul danışmanlığı
 
 - [Evimi(Gayrimenkulümü) Satarken Fiyatı Nasıl Belirlemeliyim?](/makaleler/evimi-gayrimenkulumu-satarken-fiyati-nasil-belirlemeliyim) - Karşılaştırmalı piyasa analizi, bölgesel trendler ve hatalı fiyatlandırmadan kaçınma rehberi
 - [Satış Öncesi Ev Değerini Artıran En Etkili 7 Küçük Dokunuş](/makaleler/satis-oncesi-ev-degerini-artiran-7-kucuk-dokunus) - Düşük bütçeli müdahalelerle ev değerini artırma taktikleri
-
-## Blog Posts
-
-- İstanbul Mahalle Dinamikleri ve Emlak Endeksi: Gelecek 5 Yılın Tespiti
-- Enflasyonist Ortamlarda Gayrimenkul Stratejisi
-- Hissiyata Değil Analize Dayalı Fiyatlandırma
-- Kiracılı Mülk Satışlarında Risk Yönetimi
-- Yeni Nesil Alıcı Profili: Millennial Kuşağı ve Konut
+- [Sahibinden Ev Satmanın Riskleri ve Profesyonel Desteğin Sağladığı 5 Avantaj](/makaleler/sahibinden-ev-satmanin-riskleri-ve-profesyonel-destegin-sagladigi-5-avantaj) - Bireysel satışın riskleri ve profesyonel danışmanlık avantajları
+- [Tuzla Hala Gayrimenkul Yatırımı İçin Kazançlı mı? 2026 Pazar Analizi](/makaleler/tuzla-hala-gayrimenkul-yatirimi-icin-kazancli-mi-2026-yili-pazar-analizi) - Tuzla metrekare fiyatları, amortisman süreleri ve bölge bazlı yatırım fırsatları
+- [Gayrimenkul Satışında Değer Artış Kazancı Vergisi Nasıl Hesaplanır?](/makaleler/gayrimenkul-satisinda-deger-artis-kazanci-vergisi-nasil-hesaplanir) - 2026 güncel istisna tutarları ve adım adım hesaplama rehberi
+- [Pendik Gayrimenkul Yatırımı İçin Hala Kazançlı mı? 2026 Pazar Analizi](/makaleler/pendik-gayrimenkul-yatirimi-icin-hala-kazancli-mi-2026-yili-pazar-analizi) - Pendik konut fiyatları, amortisman süreleri ve bölge bazlı yatırım haritası
+- [Gayrimenkul ve Emlak Aynı Mı? Kavramsal Farklar ve Doğru Kullanım](/makaleler/gayrimenkul-ve-emlak-ayni-mi-kavramsal-farklar) - Gayrimenkul ve emlak arasındaki hukuki, etimolojik ve kavramsal farklar rehberi
 
 ## District Pages
 

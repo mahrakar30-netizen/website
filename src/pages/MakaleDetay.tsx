@@ -97,6 +97,34 @@ const MakaleDetay: React.FC = () => {
       });
     }
 
+    const howToSteps: { name: string; text: string }[] = [];
+    for (let i = 0; i < article.content.length - 1; i++) {
+      const block = article.content[i];
+      const nextBlock = article.content[i + 1];
+      if (
+        block.type === 'heading' &&
+        nextBlock.type === 'paragraph' &&
+        (block.text.startsWith('Adım ') || block.text.match(/^\d+\.\s/)) &&
+        (article.title.toLowerCase().includes('nasıl') || article.title.toLowerCase().includes('rehber'))
+      ) {
+        howToSteps.push({ name: block.text.replace(/^\d+\.\s*/, '').replace(/^Adım\s+\d+[:\s]*/, ''), text: nextBlock.text });
+      }
+    }
+
+    if (howToSteps.length > 0) {
+      schemas.push({
+        '@context': 'https://schema.org',
+        '@type': 'HowTo',
+        name: article.title,
+        description: article.excerpt,
+        step: howToSteps.map(step => ({
+          '@type': 'HowToStep',
+          name: step.name,
+          text: step.text
+        }))
+      });
+    }
+
     const script = document.createElement('script');
     script.type = 'application/ld+json';
     script.textContent = JSON.stringify(schemas.length === 1 ? schemas[0] : { '@context': 'https://schema.org', '@graph': schemas });

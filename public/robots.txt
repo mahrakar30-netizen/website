@@ -3,6 +3,25 @@ Sitemap: https://mahirakarremax.com/sitemap.xml
 User-agent: *
 Allow: /
 
+# AI arama motorları - alıntı ve görünürlük için açıkça izin ver
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
 # Sistem dizinlerine bot erişimini engelle
 Disallow: /admin
 Disallow: /api/

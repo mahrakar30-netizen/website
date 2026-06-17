@@ -20,6 +20,9 @@ const About: React.FC = () => {
       <div className="about-content container mt-8">
         <div className="about-grid">
           <div className="about-text glass-panel fade-in-up stagger-1">
+            <div className="about-photo">
+              <img src="/profile.png" alt="Mahir Akar - Gayrimenkul Danışmanı" className="profile-image" />
+            </div>
             <h2>Mahir Akar Kimdir?</h2>
             <p className="mt-4">
               Sosyoloji temelli akademik formasyonumu ve sektördeki tecrübemi birleştirerek, gayrimenkul süreçlerine yapısal bir perspektif getiriyorum. Özellikle Anadolu Yakası'nın hızla değer kazanan bölgeleri olan <strong>Tuzla, Pendik ve Kartal</strong> ekseninde uzmanlaşarak, lokal pazar bilgimi sosyo-kültürel analizlerle harmanlıyorum. Her bölgenin kendi dinamiği ve her mülkün doğru bir hedef kitlesi vardır.

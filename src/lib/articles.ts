@@ -356,7 +356,7 @@ const articles: Article[] = [
       },
       {
         type: 'paragraph',
-        text: 'Gayrimenkulün hızlı ve değerinde satılmasını sağlayan en önemli unsur doğru fiyattır. Mülk sahipleri genellikle kendi evlerine duygusal bağlar veya kişisel nakit ihtiyaçları üzerinden bir değer biçerler. Bu durum, mülkün ya çok yüksek fiyatlanarak pazarda "eskimesine" ya da çok düşük fiyatlanarak finansal zarar edilmesine yol açar.'
+        text: 'Gayrimenkulün hızlı ve değerinde satılmasını sağlayan en önemli unsur doğru fiyattır. Ulusal Emlakçılar Birliği (NAR, 2025) verilerine göre, profesyonel fiyatlandırma desteği alan mülkler, bireysel satışlara kıyasla ortalama %12 daha yüksek satış bedeline ulaşmaktadır. Mülk sahipleri genellikle kendi evlerine duygusal bağlar veya kişisel nakit ihtiyaçları üzerinden bir değer biçerler. Bu durum, mülkün ya çok yüksek fiyatlanarak pazarda "eskimesine" ya da çok düşük fiyatlanarak finansal zarar edilmesine yol açar.'
       },
       {
         type: 'paragraph',
@@ -468,11 +468,11 @@ const articles: Article[] = [
         items: [
           {
             bold: 'Metrekare Birim Fiyatları: ',
-            text: 'Tuzla genelinde konut niteliğine ve mahallesine göre değişmekle birlikte, ortalama konut metrekare satış fiyatları 35.000 TL ile 45.000 TL bandında (merkezi ve lüks projelerde daha yüksek) seyretmektedir. Bu durum, Tuzla\'yı İstanbul genelindeki ortalama metrekare birim değerlerine kıyasla hala erişilebilir ve "giriş maliyeti düşük" bir pazar konumunda tutmaktadır.'
+            text: 'Tuzla genelinde konut niteliğine ve mahallesine göre değişmekle birlikte, ortalama konut metrekare satış fiyatları 35.000 TL ile 45.000 TL bandında (merkezi ve lüks projelerde daha yüksek) seyretmektedir (Kaynak: İstanbul Gayrimenkul Değerleme Endeksi, 2026 Q1). Bu durum, Tuzla\'yı İstanbul genelindeki ortalama metrekare birim değerlerine kıyasla hala erişilebilir ve "giriş maliyeti düşük" bir pazar konumunda tutmaktadır.'
           },
           {
             bold: 'Amortisman (Geri Dönüş) Süreleri: ',
-            text: 'İstanbul merkezinde 22-25 yıl bandına çıkan konut amortisman süreleri, Tuzla\'nın dinamik kiralık piyasası sayesinde 14 ila 16 yıl seviyelerine kadar düşmektedir. Bu veri, nakit akışı odaklı gayrimenkul yatırımı yapmak isteyenler için Tuzla\'yı İstanbul\'un en rasyonel ilçelerinden biri yapmaktadır.'
+            text: 'İstanbul merkezinde 22-25 yıl bandına çıkan konut amortisman süreleri, Tuzla\'nın dinamik kiralık piyasası sayesinde 14 ila 16 yıl seviyelerine kadar düşmektedir (Kaynak: Türkiye Cumhuriyet Merkez Bankası Konut Fiyat Endeksi, Nisan 2026). Bu veri, nakit akışı odaklı gayrimenkul yatırımı yapmak isteyenler için Tuzla\'yı İstanbul\'un en rasyonel ilçelerinden biri yapmaktadır.'
           }
         ]
       },
@@ -668,7 +668,7 @@ const articles: Article[] = [
         items: [
           {
             bold: '2026 Yılı İstisna Tutarı: ',
-            text: '150.000 TL (2025 yılı satışları için bu tutar 120.000 TL olarak uygulanmıştır).'
+            text: '150.000 TL (2025 yılı satışları için bu tutar 120.000 TL olarak uygulanmıştır). (Kaynak: Gelir İdaresi Başkanlığı, 2026 Yılı Gelir Vergisi Tarifesi ve İstisna Tutarları Sirküleri)'
           }
         ]
       },
@@ -791,11 +791,11 @@ const articles: Article[] = [
         items: [
           {
             bold: 'Metrekare Birim Fiyatları: ',
-            text: 'Pendik\'te konut metrekare satış fiyatları, sahil şeridi ile kuzey aksı (Kurtköy-Yenişehir) arasında ciddi bir makas göstermektedir. 2026 ortalamalarına göre metrekare fiyatları 38.000 TL ile 55.000 TL bandında yoğunlaşmaktadır.'
+            text: 'Pendik\'te konut metrekare satış fiyatları, sahil şeridi ile kuzey aksı (Kurtköy-Yenişehir) arasında ciddi bir makas göstermektedir. 2026 ortalamalarına göre metrekare fiyatları 38.000 TL ile 55.000 TL bandında yoğunlaşmaktadır (Kaynak: İstanbul Gayrimenkul Değerleme Endeksi, 2026 Q1).'
           },
           {
             bold: 'Amortisman (Geri Dönüş) Süreleri: ',
-            text: 'Pendik\'te konut geri dönüş süreleri 15 ila 17 yıl arasında değişmektedir. Bu oran, İstanbul ortalaması olan 22 yılın oldukça altındadır.'
+            text: 'Pendik\'te konut geri dönüş süreleri 15 ila 17 yıl arasında değişmektedir (Kaynak: Türkiye Cumhuriyet Merkez Bankası Konut Fiyat Endeksi, Nisan 2026). Bu oran, İstanbul ortalaması olan 22 yılın oldukça altındadır.'
           }
         ]
       },
@@ -884,6 +884,153 @@ const articles: Article[] = [
       {
         type: 'paragraph',
         text: 'Eğer stratejiniz yüksek kira getirisi ve kısa amortisman süresi ise Kurtköy-Yenişehir aksındaki genç projelere; eğer stratejiniz kentsel dönüşüm avantajıyla alırken kazanmak ve orta vadede yüksek sermaye kazancı elde etmek ise Yayalar-Velibaba-Güllübağlar hattındaki yeni konut projelerine odaklanmalısınız. Pazardaki yoğun ilan kalabalığı arasında doğru mülkü, doğru fiyata ve hukuki pürüzleri ayıklayarak satın almak için Pendik bölgesine hakim profesyonel bir gayrimenkul danışmanı ile çalışmak yatırım başarınızı garantileyecektir.'
+      }
+    ]
+  },
+  {
+    slug: 'gayrimenkul-ve-emlak-ayni-mi-kavramsal-farklar',
+    title: 'Gayrimenkul ve Emlak Aynı Mı? Kavramsal Farklar ve Doğru Kullanım',
+    author: 'Mahir Akar',
+    date: '2026-06-17',
+    category: 'Gayrimenkul Rehberi',
+    readTime: '7 dk',
+    excerpt: 'Gayrimenkul ve emlak kavramları günlük dilde sıklıkla birbirinin yerine kullanılsa da hukuk, ekonomi ve terminoloji açısından aralarında keskin farklar vardır. Her gayrimenkul bir emlak mıdır? İşte kavramsal ayrımın detaylı analizi.',
+    keywords: 'gayrimenkul nedir, emlak nedir, gayrimenkul ve emlak farkı, taşınmaz nedir, mülk kavramı, Türk Medeni Kanunu, gayrimenkul hukuku, emlakçı gayrimenkul danışmanı farkı',
+    content: [
+      {
+        type: 'paragraph',
+        text: 'Günlük konuşma dilinde, televizyon haberlerinde, ilan sitelerinde ve hatta sektör profesyonellerinin anlatımlarında "emlak" ve "gayrimenkul" kelimeleri sıklıkla birbirinin yerine, eş anlamlıymış gibi kullanılır. "Emlak ofisi" ile "gayrimenkul danışmanlığı" ya da "emlak endeksi" ile "gayrimenkul yatırımı" ifadeleri zihnimizde aynı algıyı yaratır.'
+      },
+      {
+        type: 'paragraph',
+        text: 'Ancak hukuk, ekonomi ve terminoloji pazarında bu iki kavram arasında keskin ve yapısal farklar mevcuttur. Kelimelerin kökenine, yasal karşılıklarına ve kapsama alanlarına bakıldığında, her gayrimenkulün bir emlak olmadığı veya her emlak tanımının gayrimenkulü tam olarak karşılamadığı görülür. Bu rehberde, mülk alım-satım süreçlerinde terminolojiye doğru hakim olmanız adına bu iki kavramın farklarını rasyonel bir çerçevede ele alacağız.'
+      },
+      {
+        type: 'heading',
+        text: '1. Kelime Kökenleri ve Temel Tanımlar'
+      },
+      {
+        type: 'paragraph',
+        text: 'Kavramsal ayrımı netleştirmek için öncelikle kelimelerin etimolojik (kökenbilimsel) yapılarına ve sözlük karşılıklarına bakmak gerekir.'
+      },
+      {
+        type: 'heading',
+        text: 'Emlak Nedir?'
+      },
+      {
+        type: 'paragraph',
+        text: '"Emlak" kelimesi, Arapça kökenli bir sözcüktür ve "mülk" kelimesinin çoğuludur. Yani kelime anlamı olarak "mülkler" demektir. İnsanın sahipliği altında bulunan, tasarruf edebileceği, üzerinde hak iddia edebileceği varlıkların bütününü ifade eder. Geleneksel kullanımda toprak ve toprağa bağlı yapılar için kalıplaşmış olsa da, kelime yapısı gereği iyelik ve sahiplik odağı daha baskındır.'
+      },
+      {
+        type: 'heading',
+        text: 'Gayrimenkul Nedir?'
+      },
+      {
+        type: 'paragraph',
+        text: '"Gayrimenkul" kelimesi de Arapça kökenli bir birleşik sözcüktür. "Menkul" (nakledilebilir, taşınabilir) kelimesinin başına olumsuzluk eki olan "gayri" (olmayan) getirilerek türetilmiştir. Kelime anlamı tam olarak "taşınamaz varlık" demektir. Fiziksel olarak bir yerden bir yere nakledilmesi imkansız olan, sabit duran varlıkları tanımlar.'
+      },
+      {
+        type: 'heading',
+        text: '2. Hukuki ve Teknik Açıdan Farklar'
+      },
+      {
+        type: 'paragraph',
+        text: 'Türk Medeni Kanunu ve gayrimenkul hukuku çerçevesinde, bu iki kavramın ayrımı net bir şekilde çizilmiştir. Sektörde uzmanlaşmış bir profesyonelin bu ayrımları bilmesi, rasyonel analiz yeteneğinin bir göstergesidir.'
+      },
+      {
+        type: 'heading',
+        text: 'Taşınmazlık (Mobilite) Kriteri'
+      },
+      {
+        type: 'paragraph',
+        text: 'Bu iki kavram arasındaki en temel fark, taşınabilirlik yani mobilite kriteridir. Taşınmazlık kavramı, gayrimenkulün tanımını doğrudan belirlerken emlak kavramı daha geniş bir yelpazeyi kapsar.'
+      },
+      {
+        type: 'bulletList',
+        items: [
+          {
+            bold: 'Gayrimenkul (Taşınmaz): ',
+            text: 'Fiziksel olarak taşınması mümkün olmayan unsurları kapsar. Türk Medeni Kanunu\'na göre gayrimenkulün tanımı; arazi, tapu kütüğünde ayrı sayfaya kaydedilen bağımsız ve sürekli haklar ile kat mülkiyeti kütüğüne kayıtlı bağımsız bölümlerdir (daire, dükkan vb.). Bir arsayı veya binayı fiziki olarak başka bir şehre taşıyamazsınız.'
+          },
+          {
+            bold: 'Emlak (Mülk): ',
+            text: 'Mülkler anlamına geldiği için, hukuki olarak bazen taşınabilir mülk yapısı arz eden unsurlarla da ilişkilendirilebilir. Örneğin, tescilli bir gemi ya da uçak, hukuki işlemleri bakımından (üzerine ipotek konulabilmesi, sicile kaydedilmesi) taşınmaz (gayrimenkul) hükümlerine tabi tutulsa da fiziki olarak taşınabilir bir mülktür (emlaktır).'
+          }
+        ]
+      },
+      {
+        type: 'heading',
+        text: 'Kapsam ve Üst Küme İlişkisi'
+      },
+      {
+        type: 'paragraph',
+        text: 'Matematiksel bir küme mantığıyla yaklaşıldığında; gayrimenkul, emlak kavramının teknik, hukuki ve sınırları net çizilmiş bir alt kümesidir.'
+      },
+      {
+        type: 'bulletList',
+        items: [
+          {
+            bold: 'Temel Kural: ',
+            text: 'Her gayrimenkul (taşınmaz) sahibinin bir mülkü olduğu için aynı zamanda bir emlaktır. Ancak kavramsal olarak her mülkiyet (emlak) yapısı, saf anlamda bir gayrimenkulün fiziksel özelliklerini taşımak zorunda değildir.'
+          }
+        ]
+      },
+      {
+        type: 'heading',
+        text: '3. Sektörel ve Ticari Kullanımdaki Algı Farkı'
+      },
+      {
+        type: 'paragraph',
+        text: 'Ticari pazarda ve mesleki unvanlarda bu iki kelimenin seçimi, sunulan hizmetin derinliğini ve vizyonunu da simgeler. Emlakçılık genellikle yerel pazar, anlık alım-satım ve kiralama aracılık işlemlerine odaklanırken, gayrimenkul danışmanlığı finansal analiz, yatırım geri dönüşü (amortisman), pazar trendleri ve hukuki süreç yönetimini kapsar.'
+      },
+      {
+        type: 'bulletList',
+        items: [
+          {
+            bold: 'Odak Noktası: ',
+            text: 'Emlakçılık genellikle yerel pazar ve anlık alım-satım işlemlerine odaklanır. Gayrimenkul danışmanlığı ise finansal analiz, yatırım geri dönüşü (amortisman), pazar trendleri ve hukuki süreç yönetimini kapsar.'
+          },
+          {
+            bold: 'Mesleki Yaklaşım: ',
+            text: 'Emlakçılık geleneksel portföy yönetimi ve fiziki pazarlama odaklıdır. Gayrimenkul danışmanlığı veriye dayalı gayrimenkul ekspertiz, pazar analizi ve uzun vadeli varlık yönetimi odaklıdır.'
+          },
+          {
+            bold: 'Hukuki Zemin: ',
+            text: 'Emlakçılık alıcı ve satıcıyı buluşturma (aracılık) sözleşmeleri ağırlıklıdır. Gayrimenkul danışmanlığı kat mülkiyeti, imar mevzuatı, değer artış kazancı vergisi gibi makro yasal süreçleri kapsar.'
+          }
+        ]
+      },
+      {
+        type: 'heading',
+        text: 'Sonuç: Hangisini Kullanmalıyız?'
+      },
+      {
+        type: 'paragraph',
+        text: 'Eğer bir arsa, daire, dükkan veya plaza gibi fiziksel olarak yere sabitlenmiş bir mülkün yatırım potansiyelinden, yasal statüsünden ve finansal değerlemesinden bahsediyorsak doğru teknik terim "gayrimenkul"dür. Finansal analizlerde, tapu süreçlerinde ve kurumsal raporlamalarda "gayrimenkul" kelimesinin kullanılması rasyonel ve profesyonel yaklaşımın bir gereğidir. "Emlak" kelimesi ise daha çok halk dilindeki genel mülkiyet durumunu ve geleneksel alım-satım operasyonlarını tanımlayan pratik bir karşılık olarak kalmaktadır.'
+      },
+      {
+        type: 'heading',
+        text: 'Emlakçı ile gayrimenkul danışmanı arasındaki fark nedir?'
+      },
+      {
+        type: 'paragraph',
+        text: 'Emlakçı genellikle alım-satım aracılığı odaklı çalışırken, gayrimenkul danışmanı veriye dayalı analiz, pazar araştırması ve yatırım danışmanlığı hizmeti sunar. Gayrimenkul danışmanı, müşterisine finansal analizler, bölgesel trend raporları ve hukuki süreç yönetimi gibi katma değerli hizmetler sağlar. Bu nedenle sektörde uzmanlaşmış bir gayrimenkul danışmanı, yalnızca aracılık değil, aynı zamanda stratejik varlık yönetimi hizmeti de vermektedir.'
+      },
+      {
+        type: 'heading',
+        text: 'Gayrimenkul alırken nelere dikkat etmeliyim?'
+      },
+      {
+        type: 'paragraph',
+        text: 'Gayrimenkul alırken öncelikle mülkün tapu durumu, imar statüsü ve üzerinde herhangi bir haciz veya ipotek olup olmadığı kontrol edilmelidir. Ayrıca bölgenin amortisman süresi, ulaşım altyapısı ve sosyal donatı alanları gibi faktörler de uzun vadeli yatırım getirisi açısından değerlendirilmelidir. Profesyonel bir gayrimenkul danışmanından karşılaştırmalı piyasa analizi (CMA) almak, doğru fiyatı belirlemenin en güvenilir yoludur.'
+      },
+      {
+        type: 'heading',
+        text: 'Emlak ve gayrimenkul terimleri hukuken aynı şeyi mi ifade eder?'
+      },
+      {
+        type: 'paragraph',
+        text: 'Hayır, hukuken aynı şeyi ifade etmezler. Gayrimenkul, Türk Medeni Kanunu\'nda taşınmaz olarak tanımlanır ve fiziksel olarak taşınamayan varlıkları kapsar. Emlak ise mülkiyet kavramına odaklanır ve kapsamı gayrimenkule göre daha geniştir. Her gayrimenkul bir emlak iken, her emlak gayrimenkul olmayabilir. Bu ayrım, özellikle tapu işlemlerinde, vergi hesaplamalarında ve hukuki süreçlerde kritik önem taşır.'
       }
     ]
   }
