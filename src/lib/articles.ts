@@ -1033,6 +1033,135 @@ const articles: Article[] = [
         text: 'Hayır, hukuken aynı şeyi ifade etmezler. Gayrimenkul, Türk Medeni Kanunu\'nda taşınmaz olarak tanımlanır ve fiziksel olarak taşınamayan varlıkları kapsar. Emlak ise mülkiyet kavramına odaklanır ve kapsamı gayrimenkule göre daha geniştir. Her gayrimenkul bir emlak iken, her emlak gayrimenkul olmayabilir. Bu ayrım, özellikle tapu işlemlerinde, vergi hesaplamalarında ve hukuki süreçlerde kritik önem taşır.'
       }
     ]
+  },
+  {
+    slug: 'emlakci-ve-gayrimenkul-danismani-arasindaki-farklar',
+    title: 'Emlakçı ve Gayrimenkul Danışmanı Arasındaki Farklar: Hangisini Tercih Etmelisiniz?',
+    author: 'Mahir Akar',
+    date: '2026-06-20',
+    category: 'Gayrimenkul Rehberi',
+    readTime: '8 dk',
+    excerpt: 'Emlakçı ile gayrimenkul danışmanı arasındaki temel farkları keşfedin. İş yapış modeli, veri analizi, pazarlama gücü ve hukuki donanım açısından hangi profesyonel sizin için doğru seçim?',
+    keywords: 'emlakçı ve gayrimenkul danışmanı farkı, emlakçı nedir, gayrimenkul danışmanı nedir, emlakçı gayrimenkul danışmanı karşılaştırması, profesyonel emlak hizmeti, gayrimenkul danışmanı avantajları, emlakçı komisyonu, gayrimenkul yatırım danışmanlığı',
+    content: [
+      {
+        type: 'heading',
+        text: 'Emlakçı ve Gayrimenkul Danışmanı: Temel Farklar'
+      },
+      {
+        type: 'paragraph',
+        text: 'Gayrimenkul sektöründe "emlakçı" ve "gayrimenkul danışmanı" unvanları sıklıkla birbirinin yerine kullanılsa da, iş yapış modeli, veriye yaklaşım, pazarlama gücü ve hukuki donanım açısından aralarında çok ciddi yapısal farklar bulunur. Doğru unvanı ve doğru iş ortağını seçmek, binlerce liralık finansal kayıpların önüne geçmek ve zamanı doğru yönetmek anlamına gelir. Bu rehberde, geleneksel emlakçılık ile modern gayrimenkul danışmanlığı arasındaki temel farkları kapsamlı bir şekilde inceliyoruz.'
+      },
+      {
+        type: 'heading',
+        text: '1. İş Yapış Modeli: İşlem Odaklılık vs. İlişki ve Süreç Odaklılık'
+      },
+      {
+        type: 'paragraph',
+        text: 'İki unvan arasındaki en belirgin fark, müşteriye ve mülke bakış açısındaki felsefede yatar. Emlakçı genellikle işlem odaklı çalışır; temel amaç portföyündeki mülkü en hızlı şekilde bir alıcıyla buluşturup satmak veya kiralamak, ardından komisyonu alarak süreci kapatmaktır. İlişki, işlemin tamamlanmasıyla son bulma eğilimindedir.'
+      },
+      {
+        type: 'paragraph',
+        text: 'Gayrimenkul danışmanı ise süreç ve ilişki odaklı çalışır. Sadece anlık bir satış operasyonu yürütmez; müşterisinin varlık yönetimini üstlenir. Mülk sahibinin veya yatırımcının finansal hedeflerini analiz eder, onlara uzun vadeli bir gayrimenkul stratejisi sunar. İşlem bitse dahi hukuki, mali ve dönemsel analizlerle danışmanlık hizmetini sürdürür.'
+      },
+      {
+        type: 'heading',
+        text: '2. Veri, Analiz ve Ekspertiz Yaklaşımı'
+      },
+      {
+        type: 'paragraph',
+        text: 'Bir mülke fiyat biçilirken ve pazar analizi yapılırken iki tarafın kullandığı araçlar tamamen farklıdır. Emlakçı fiyat belirlerken genellikle bölgedeki diğer ilan sitelerine bakar ya da kişisel tecrübesine ve kulaktan dolma piyasa duyumlarına güvenir. Bu durum, mülkün ya çok yüksek fiyatlanarak pazarda eskiyen bir ilana dönüşmesine ya da değerinin altında satılarak mülk sahibinin zarar etmesine yol açar.'
+      },
+      {
+        type: 'paragraph',
+        text: 'Gayrimenkul danışmanı ise bilimsel ve verilere dayalı gayrimenkul ekspertiz yöntemlerini kullanır. Karşılaştırmalı Piyasa Analizi (CMA) raporları hazırlar. Bölgedeki sadece istenen fiyatları değil, tapuda gerçekleşen gerçek kapanış rakamlarını, bölgenin amortisman sürelerini ve arz-talep dengesini analiz ederek mülk için en rasyonel satış fiyatını belirler.'
+      },
+      {
+        type: 'heading',
+        text: '3. Pazarlama Gücü ve Teknoloji Kullanımı'
+      },
+      {
+        type: 'paragraph',
+        text: 'Bir mülkün ne kadar geniş bir kitleye, ne kadar kaliteli sunulduğu satış hızını ve nihai satış bedelini doğrudan etkiler. Emlakçı geleneksel pazarlama yöntemlerini kullanır; ofis camına ilan asmak, standart cep telefonu fotoğraflarıyla ilan sitelerine yükleme yapmak ve tanıdık çevresine haber vermekle sınırlı bir operasyon yürütür.'
+      },
+      {
+        type: 'paragraph',
+        text: 'Gayrimenkul danışmanı ise profesyonel ve çok kanallı bir pazarlama planı uygular. Geniş açılı lensler, drone çekimleri ve 3D sanal turlar ile mülkün dijital sunumunu en üst seviyeye çıkarır. Gelişmiş CRM veri tabanlarını kullanır, sosyal medya algoritmaları üzerinden hedef kitle reklamcılığı yapar ve mülkü diğer profesyonellerin de havuzuna açarak satış ihtimalini çarpan etkisiyle artırır.'
+      },
+      {
+        type: 'heading',
+        text: '4. Hukuki Mevzuat ve Finansal Donanım'
+      },
+      {
+        type: 'paragraph',
+        text: 'Gayrimenkul ticareti; vergi hukuku, borçlar kanunu ve imar mevzuatları gibi oldukça teknik detaylar barındırır. Emlakçı genellikle standart, kırtasiye usulü sözleşmelerle süreci yürütür. Mevzuattaki anlık değişimleri, tapu süreçlerindeki dijital yenilikleri ya da karmaşık vergi yükümlülüklerini derinlemesine analiz etmekte yetersiz kalabilir.'
+      },
+      {
+        type: 'paragraph',
+        text: 'Gayrimenkul danışmanı sürekli mesleki eğitimlerden geçer. Güncel imar durumlarına, değer artış kazancı vergisi hesaplamalarına, tapu harcı muafiyetlerine ve doğru tahliye taahhütnamesi süreçlerine hakimdir. Alıcı ve satıcı arasındaki tüm finansal transfer yöntemlerini yasal mevzuata uygun, şeffaf ve güvenli bir şekilde yöneterek tarafları hukuki risklerden korur.'
+      },
+      {
+        type: 'heading',
+        text: 'Karşılaştırma Tablosu: Emlakçı vs. Gayrimenkul Danışmanı'
+      },
+      {
+        type: 'bulletList',
+        items: [
+          {
+            bold: 'Temel Hedef — Emlakçı: ',
+            text: 'Sadece mülkü satmak veya kiralamak. Gayrimenkul Danışmanı: Müşterinin varlığını ve kârını optimize etmek.'
+          },
+          {
+            bold: 'Fiyatlandırma — Emlakçı: ',
+            text: 'Tecrübeye veya hisse dayalı tahmini fiyat. Gayrimenkul Danışmanı: Veriye dayalı Karşılaştırmalı Piyasa Analizi (CMA).'
+          },
+          {
+            bold: 'Pazarlama — Emlakçı: ',
+            text: 'İlan siteleri ve ofis camı afişleri. Gayrimenkul Danışmanı: Dijital reklamcılık, drone çekimleri, hedef kitle analizi ve MLS ağı.'
+          },
+          {
+            bold: 'Müşteri Filtreleme — Emlakçı: ',
+            text: 'Arayan her adaya evi gösterme trafiği. Gayrimenkul Danışmanı: Findeks raporu ve bütçe analizi ile nitelikli alıcı veya kiracı seçimi.'
+          },
+          {
+            bold: 'Hukuki Donanım — Emlakçı: ',
+            text: 'Sektörel alışkanlıklara dayalı yönetim. Gayrimenkul Danışmanı: Güncel Borçlar Kanunu, Vergi Mevzuatı ve Tapu Hukuku hakimiyeti.'
+          }
+        ]
+      },
+      {
+        type: 'heading',
+        text: 'Sonuç: Hangisini Tercih Etmelisiniz?'
+      },
+      {
+        type: 'paragraph',
+        text: 'Emlakçılık, mülk ile alıcı arasında fiziksel bir köprü kurma işiyken; gayrimenkul danışmanlığı, finans, hukuk, pazarlama ve kriz yönetimi disiplinlerinin bir arada sunulduğu profesyonel bir hizmet bütünüdür. Mülkünüzü şansa bırakmamak, doğru alıcı veya kiracı profiliyle, hukuki altyapısı hatasız ve maksimum kazançla süreci tamamlamak istiyorsanız, geleneksel bir emlakçı yerine bölgenizde uzmanlaşmış kurumsal bir gayrimenkul danışmanı ile stratejik ortaklık kurmak en akılcı ticari karardır.'
+      },
+      {
+        type: 'heading',
+        text: 'Emlakçı ile gayrimenkul danışmanı arasındaki temel fark nedir?'
+      },
+      {
+        type: 'paragraph',
+        text: 'Emlakçı işlem odaklı çalışır ve temel hedefi mülkü en hızlı şekilde satmak veya kiralamaktır. Gayrimenkul danışmanı ise süreç ve ilişki odaklıdır; müşterisinin uzun vadeli varlık yönetimini üstlenir, finansal hedefleri analiz eder, veriye dayalı fiyatlandırma yapar ve işlem sonrasında da hukuki ve mali danışmanlık hizmeti sunmaya devam eder.'
+      },
+      {
+        type: 'heading',
+        text: 'Gayrimenkul danışmanına komisyon ödemek mantıklı mı?'
+      },
+      {
+        type: 'paragraph',
+        text: 'Evet, gayrimenkul danışmanına ödenen komisyon bir masraf değil, yatırımdır. Profesyonel bir danışman, doğru fiyatlandırma stratejisi ile mülkünüzün değerinin altında satılmasını engeller, geniş pazarlama ağı sayesinde satış süresini kısaltır ve hukuki süreçleri hatasız yöneterek olası cezai yaptırımların önüne geçer. Ulusal Emlakçılar Birliği (NAR) verilerine göre, profesyonel destek alan mülkler bireysel satışlara kıyasla ortalama %12 daha yüksek satış bedeline ulaşmaktadır.'
+      },
+      {
+        type: 'heading',
+        text: 'Hangi durumda emlakçı, hangi durumda gayrimenkul danışmanı tercih edilmelidir?'
+      },
+      {
+        type: 'paragraph',
+        text: 'Basit ve acil bir kiralama veya satış işlemi için yerel bir emlakçı yeterli olabilir. Ancak yatırım amaçlı gayrimenkul alım-satımı, yüksek bütçeli mülklerin pazarlanması, hukuki risklerin yönetilmesi veya uzun vadeli bir gayrimenkul portföyü oluşturulması söz konusu olduğunda mutlaka profesyonel bir gayrimenkul danışmanı ile çalışmak gerekir. Danışmanlık hizmeti, özellikle değer artış kazancı vergisi, imar mevzuatı ve kentsel dönüşüm gibi karmaşık konularda kritik önem taşır.'
+      }
+    ]
   }
 ];
 
