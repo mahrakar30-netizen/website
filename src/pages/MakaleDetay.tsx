@@ -31,6 +31,29 @@ const ArticleRenderer: React.FC<{ blocks: ContentBlock[] }> = ({ blocks }) => {
                 ))}
               </ul>
             );
+          case 'table':
+            return (
+              <div key={i} className="article-table-wrapper">
+                <table className="article-table">
+                  <thead>
+                    <tr>
+                      {block.headers.map((h, j) => (
+                        <th key={j}>{h}</th>
+                      ))}
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {block.rows.map((row, j) => (
+                      <tr key={j}>
+                        {row.map((cell, k) => (
+                          <td key={k}>{cell}</td>
+                        ))}
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            );
           default:
             return null;
         }

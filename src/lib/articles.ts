@@ -1,7 +1,8 @@
 export type ContentBlock =
   | { type: 'heading'; text: string }
   | { type: 'paragraph'; text: string }
-  | { type: 'bulletList'; items: { bold: string; text: string }[] };
+  | { type: 'bulletList'; items: { bold: string; text: string }[] }
+  | { type: 'table'; headers: string[]; rows: string[][] };
 
 export interface Article {
   slug: string;
@@ -1160,6 +1161,110 @@ const articles: Article[] = [
       {
         type: 'paragraph',
         text: 'Basit ve acil bir kiralama veya satış işlemi için yerel bir emlakçı yeterli olabilir. Ancak yatırım amaçlı gayrimenkul alım-satımı, yüksek bütçeli mülklerin pazarlanması, hukuki risklerin yönetilmesi veya uzun vadeli bir gayrimenkul portföyü oluşturulması söz konusu olduğunda mutlaka profesyonel bir gayrimenkul danışmanı ile çalışmak gerekir. Danışmanlık hizmeti, özellikle değer artış kazancı vergisi, imar mevzuatı ve kentsel dönüşüm gibi karmaşık konularda kritik önem taşır.'
+      }
+    ]
+  },
+  {
+    slug: 'tarla-gayrimenkul-sayilir-mi-hukuki-ve-finansal-acidan-arsa-tarla-statusu',
+    title: 'Tarla Gayrimenkul Sayılır Mı? Hukuki ve Finansal Açıdan Arsa-Tarla Statüsü',
+    author: 'Mahir Akar',
+    date: '2026-06-24',
+    category: 'Gayrimenkul Rehberi',
+    readTime: '7 dk',
+    excerpt: 'Tarla, Türk Medeni Kanunu\'na göre gayrimenkul statüsündedir. TMK 704. madde kapsamında arazi olarak tanımlanan tarlanın arsadan farkı, yatırım avantajları ve risk yönetimi hakkında kapsamlı rehber.',
+    keywords: 'tarla gayrimenkul sayılır mı, tarla gayrimenkul mü, tarla arsa farkı, tarla yatırımı, tarla tapusu, tarla hukuki statüsü, arsa tarla dönüşümü, imar kanunu 18. madde, tarla alırken dikkat edilecekler, TMK 704',
+    content: [
+      {
+        type: 'paragraph',
+        text: 'Gayrimenkul ve mülkiyet hukukuyla ilgili en çok kafa karışıklığı yaratan konulardan biri de toprak türlerinin yasal statüsüdür. Ev, dükkan, plaza veya apartman gibi insan eliyle yapılmış somut yapılar doğrudan "gayrimenkul" olarak kabul edilirken; üzerinde herhangi bir yapı bulunmayan, tarımsal faaliyetler için kullanılan boş bir tarla gayrimenkul sayılır mı? Bu sorunun cevabı hem hukuki literatürde hem de finansal piyasalarda çok net ve kesin bir şekilde evet, tarla bir gayrimenkuldür. Kavramın yasal dayanaklarını, arsa ile tarla arasındaki farkları ve bir yatırım enstrümanı olarak tarlanın gayrimenkul pazarındaki yerini rasyonel bir çerçevede inceleyelim.'
+      },
+      {
+        type: 'heading',
+        text: '1. Hukuki Açıdan Tarla Neden Gayrimenkuldür?'
+      },
+      {
+        type: 'paragraph',
+        text: 'Bir varlığın gayrimenkul (taşınmaz) statüsünde olup olmadığını belirleyen yegane merci Türk Medeni Kanunu\'dur (TMK). TMK\'nın 704. maddesinde taşınmaz mülkiyetinin (gayrimenkulün) konusu açıkça belirtilmiştir. Bu maddeye göre şu unsurlar yasal olarak gayrimenkul kabul edilir:'
+      },
+      {
+        type: 'bulletList',
+        items: [
+          {
+            bold: '',
+            text: 'Araziler'
+          },
+          {
+            bold: '',
+            text: 'Tapu kütüğünde ayrı sayfaya kaydedilen bağımsız ve sürekli haklar'
+          },
+          {
+            bold: '',
+            text: 'Kat mülkiyeti kütüğüne kayıtlı bağımsız bölümler'
+          }
+        ]
+      },
+      {
+        type: 'paragraph',
+        text: 'Tarla, özü itibarıyla sınırları hukuki ve teknik yöntemlerle belirlenmiş bir arazi parçasıdır. Fiziksel olarak bir yerden başka bir yere nakledilmesi (taşınması) imkansızdır. Kendine ait bir tapu kaydı bulunur ve mülkiyet hakları tapu sicili üzerinden devredilir. Dolayısıyla tarla, gayrimenkul hukukunun en temel ve yalın taşınmaz (gayrimenkul) örneklerinden biridir.'
+      },
+      {
+        type: 'heading',
+        text: '2. Tarla ile Arsa Arasındaki Gayrimenkul Farkı Nedir?'
+      },
+      {
+        type: 'paragraph',
+        text: 'Her ikisi de gayrimenkul kategorisinde yer alsa da, tarla ve arsa arasında imar hukuku ve kullanım amacı bakımından çok keskin yapısal farklar bulunur. Gayrimenkul piyasasında rasyonel bir yatırım yapmak isteyenlerin bu farkı iyi bilmesi gerekir:'
+      },
+      {
+        type: 'table',
+        headers: ['Özellik', 'Tarla (Geniş Arazi)', 'Arsa (İmarlı Toprak)'],
+        rows: [
+          ['Yasal Statü', 'İmar planı olmayan, tarımsal nitelikli arazidir.', 'Belediye tarafından imar planı sınırları içine alınmış topraktır.'],
+          ['Yapılaşma İzni', 'Üzerine apartman, dükkan veya standart konut yapılamaz. Sadece belirli şartlarda (bağ evi, tarımsal depo vb.) çok sınırlı izin verilir.', 'İmar durum belgesine göre (konut, ticari, sanayi) üzerine yasal olarak bina inşa edilebilir.'],
+          ['Tapu Türü', 'Genellikle "Hisse Tapu" veya "Müstakil Tarla Tapusu" olarak geçer.', '"Arsa Tapusu" veya kat irtifakı kurulmuşsa "Arsa Paylı" tapu olarak geçer.'],
+          ['Değer Oranı', 'Giriş maliyeti düşüktür, uzun vadeli yatırım için uygundur.', 'Metrekare birim fiyatı yüksektir, likiditesi (nakde çevrilme hızı) daha fazladır.']
+        ]
+      },
+      {
+        type: 'paragraph',
+        text: 'Önemli Dönüşüm: Bir tarlanın belediye sınırları ve kentsel gelişim aksı dahilinde imar uygulamasına (3194 sayılı İmar Kanunu\'nun 18. maddesi) tabi tutulmasıyla, o tarla artık arsa statüsüne kavuşur. Bu dönüşüm, gayrimenkulün değerini çarpan etkisiyle artıran en büyük etkendir.'
+      },
+      {
+        type: 'heading',
+        text: '3. Bir Yatırım Enstrümanı Olarak Tarlanın Avantajları'
+      },
+      {
+        type: 'paragraph',
+        text: 'Tarlanın yasal bir gayrimenkul olması, onu özellikle uzun vadeli sermaye kazancı (prim) hedefleyen yatırımcılar için çok güçlü bir araç haline getirir:'
+      },
+      {
+        type: 'bulletList',
+        items: [
+          {
+            bold: 'Düşük Giriş Maliyeti: ',
+            text: 'Bitmiş bir konut veya imarlı bir arsa almaya bütçesi yetmeyen yatırımcılar için tarla, gayrimenkul pazarına giriş biletidir.'
+          },
+          {
+            bold: 'Yüksek Prim Potansiyeli: ',
+            text: 'Şehrin büyüme yönünde, gelecekte imara açılma potansiyeli olan stratejik bir lokasyondan alınan tarla, imar planı geldiği andan itibaren arsa statüsü kazanarak sahibine çok yüksek sermaye kazançları sunabilir.'
+          },
+          {
+            bold: 'Vergi Avantajları: ',
+            text: 'Yapılı mülklere veya kentsel arsalara kıyasla yıllık emlak vergisi oranları oldukça düşüktür.'
+          }
+        ]
+      },
+      {
+        type: 'heading',
+        text: 'Sonuç: Tarla Alırken Risk Yönetimi'
+      },
+      {
+        type: 'paragraph',
+        text: 'Tarla kesinlikle bir gayrimenkuldür ve doğru seçildiğinde en kazançlı taşınmaz yatırımlarından biridir. Ancak tarla yatırımı yaparken mülkün üzerinde sit alanı şerhi, tapu kaydında rehin/haciz olup olmadığı, kadastral (resmi) yola cephesinin bulunup bulunmadığı gibi teknik detaylar mutlaka incelenmelidir.'
+      },
+      {
+        type: 'paragraph',
+        text: 'Alım satım süreçlerinde finansal kayıplar yaşamamak ve doğru bölge analiziyle geleceğe yönelik kazançlı bir projeksiyon oluşturmak için, bölgedeki arazi piyasasına hakim profesyonel bir gayrimenkul danışmanından gayrimenkul ekspertiz desteği almak en doğru ticari adımdır.'
       }
     ]
   }

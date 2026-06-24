@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://mahirakarremax.com/</loc>
-    <lastmod>2026-06-17</lastmod>
+    <lastmod>2026-06-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -93,6 +93,12 @@
   <url>
     <loc>https://mahirakarremax.com/makaleler/gayrimenkul-ve-emlak-ayni-mi-kavramsal-farklar</loc>
     <lastmod>2026-06-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://mahirakarremax.com/makaleler/tarla-gayrimenkul-sayilir-mi-hukuki-ve-finansal-acidan-arsa-tarla-statusu</loc>
+    <lastmod>2026-06-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>

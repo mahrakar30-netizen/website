@@ -124,6 +124,59 @@
   font-weight: 600;
 }
 
+.article-table-wrapper {
+  overflow-x: auto;
+  margin: 0 0 32px 0;
+  border-radius: 12px;
+  border: 1px solid var(--border-color, #e2e8f0);
+}
+
+.article-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.article-table thead {
+  background-color: var(--accent-color, #1a365d);
+}
+
+.article-table th {
+  color: #ffffff;
+  font-weight: 600;
+  text-align: left;
+  padding: 14px 18px;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.article-table td {
+  padding: 14px 18px;
+  border-bottom: 1px solid var(--border-color, #e2e8f0);
+  color: var(--text-primary);
+  vertical-align: top;
+}
+
+.article-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.article-table tbody tr:nth-child(even) {
+  background-color: var(--bg-secondary, #f8fafc);
+}
+
+.article-table tbody tr:hover {
+  background-color: var(--bg-hover, #edf2f7);
+}
+
+.article-table td:first-child {
+  font-weight: 600;
+  white-space: nowrap;
+  color: var(--accent-color, #1a365d);
+}
+
 @media (max-width: 768px) {
   .makale-detay-page {
     padding: 120px 0 60px;
@@ -140,5 +193,15 @@
   .article-heading {
     font-size: 1.4rem;
     margin-top: 40px;
+  }
+
+  .article-table th,
+  .article-table td {
+    padding: 10px 12px;
+    font-size: 0.85rem;
+  }
+
+  .article-table td:first-child {
+    white-space: normal;
   }
 }
