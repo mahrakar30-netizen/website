@@ -102,4 +102,16 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
+  <url>
+    <loc>https://mahirakarremax.com/makaleler/emlakci-ve-gayrimenkul-danismani-arasindaki-farklar</loc>
+    <lastmod>2026-06-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://mahirakarremax.com/makaleler/gayrimenkul-satis-sureci-3-asamada-eksiksiz-rehber</loc>
+    <lastmod>2026-06-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
 </urlset>

@@ -1267,6 +1267,132 @@ const articles: Article[] = [
         text: 'Alım satım süreçlerinde finansal kayıplar yaşamamak ve doğru bölge analiziyle geleceğe yönelik kazançlı bir projeksiyon oluşturmak için, bölgedeki arazi piyasasına hakim profesyonel bir gayrimenkul danışmanından gayrimenkul ekspertiz desteği almak en doğru ticari adımdır.'
       }
     ]
+  },
+  {
+    slug: 'gayrimenkul-satis-sureci-3-asamada-eksiksiz-rehber',
+    title: 'Gayrimenkul Satış Süreci: 3 Aşamada (Satış Öncesi, Satış Esnası, Satış Sonrası) Eksiksiz Rehber',
+    author: 'Mahir Akar',
+    date: '2026-06-27',
+    category: 'Gayrimenkul Rehberi',
+    readTime: '12 dk',
+    excerpt: 'Gayrimenkul satışı; satış öncesi hazırlık, tapu devri ve satış sonrası yasal bildirimler olmak üzere 3 ana aşamadan oluşur. Bu rehberde, mülkünüzü pazara çıkarmaktan tapu devrine ve satış sonrası zorunlu bildirimlere kadar tüm süreci rasyonel adımlarla ele alıyoruz.',
+    keywords: 'gayrimenkul satış süreci, ev satış aşamaları, tapu satış işlemleri, Web Tapu başvurusu, satış öncesi hazırlık, kapora sözleşmesi, değer artış kazancı vergisi, gayrimenkul danışmanı, satış sonrası bildirimler',
+    content: [
+      {
+        type: 'paragraph',
+        text: 'Gayrimenkul satışı temelde 3 ana aşamadan (Satış Öncesi, Satış Esnası ve Satış Sonrası) oluşur. Piyasa gerçeklerine hakim olmadan veya yasal altyapıyı kurmadan atılacak adımlar, finansal kayıplara ya da geriye dönük hukuki davalara yol açabilir. Bu rehberde, bir mülkün pazara çıkışından tapu devrine ve satış sonrası zorunlu bildirimlere kadar tüm süreci rasyonel adımlarla ele alacağız.'
+      },
+      {
+        type: 'heading',
+        text: '1. Aşama: Satış Öncesi Hazırlık ve Pazarlama Süreci'
+      },
+      {
+        type: 'paragraph',
+        text: 'Satış operasyonunun en uzun ve stratejik planlama gerektiren evresidir. Mülkünüzü doğru alıcı kitlesiyle buluşturmak için şu adımları eksiksiz uygulamalısınız:'
+      },
+      {
+        type: 'heading',
+        text: 'Doğru Fiyatlandırma ve Gayrimenkul Ekspertizi'
+      },
+      {
+        type: 'paragraph',
+        text: 'Satışın hızını ve başarısını belirleyen yegane unsur doğru fiyattır. Mülk sahiplerinin yaptığı en yaygın hata, kişisel nakit ihtiyaçlarına göre fiyat belirlemektir. Bunun yerine, bölgede son 6 ayda gerçekleşmiş gerçek tapu satış tonajları incelenmeli ve Karşılaştırmalı Piyasa Analizi (CMA) ile mülkün rasyonel pazar değeri saptanmalıdır.'
+      },
+      {
+        type: 'heading',
+        text: 'Dijital Sunum ve Görsel Kalite'
+      },
+      {
+        type: 'paragraph',
+        text: 'Alıcıların mülkü ilk olarak internette gördüğü unutulmamalıdır. Evin temizlenmesi, küçük kusurların (boya çatlakları, derz kararmaları vb.) giderilmesi algılanan değeri yukarı taşır. Geniş açılı profesyonel fotoğraf çekimleri ve video turları ile mülk ilan sitelerinde öne çıkarılmalıdır.'
+      },
+      {
+        type: 'heading',
+        text: 'Alıcı Filtreleme ve Risk Yönetimi'
+      },
+      {
+        type: 'paragraph',
+        text: 'İlan yayınlandıktan sonra başlayan telefon trafiğinde, her arayan adaya kapıyı açmak hem zaman kaybına hem de güvenlik zafiyetlerine yol açar. Adayların bütçe yeterlilikleri, kredi uygunluk durumları ve satın alma motivasyonları önceden filtrelenmeli, mülke sadece nitelikli alıcılar davet edilmelidir.'
+      },
+      {
+        type: 'heading',
+        text: '2. Aşama: Satış Esnası ve Resmi Tapu Süreci'
+      },
+      {
+        type: 'paragraph',
+        text: 'Alıcı ile fiyat ve teslim şartlarında (eşyaların durumu, harçların nasıl paylaşılacağı vb.) uzlaşı sağlandıktan sonra yasal süreç başlar:'
+      },
+      {
+        type: 'heading',
+        text: 'Adım 1: Ön Protokol ve Kapora Güvencesi'
+      },
+      {
+        type: 'paragraph',
+        text: 'Sözlü anlaşmalar gayrimenkul hukukunda bağlayıcı değildir. Tarafların haklarını korumak, satış bedelini ve cayma şartlarını sabitlemek adına taraflar arasında hukuki altyapısı sağlam bir Taşınmaz Satış Vaadi ve Kapora Sözleşmesi imzalanır ve makul bir ön ödeme (kapora) alınır.'
+      },
+      {
+        type: 'heading',
+        text: 'Adım 2: Web Tapu Üzerinden Online Başvuru'
+      },
+      {
+        type: 'paragraph',
+        text: 'Günümüz emlak piyasasında tapu dairelerinde sabah erkenden kuyruğa girme dönemi kapanmıştır. Satıcı, e-Devlet şifresi ile Web Tapu sistemine giriş yaparak online başvuruyu başlatır.'
+      },
+      {
+        type: 'bulletList',
+        items: [
+          {
+            bold: '1. Belediye Rayiç Bedelini Alın — Evrak Temini: ',
+            text: 'Mülkün bağlı bulunduğu belediyeden, satışın yapılacağı yıla ait Emlak Beyan Değeri (Rayiç Bedel) belgesini alın. Bu belge üzerindeki tutar, tapuda gösterilecek minimum satış bedelinin yasal sınırını belirler.'
+          },
+          {
+            bold: '2. Web Tapu Sistemine Belgeleri Yükleyin — Dijital Yükleme: ',
+            text: 'Web Tapu üzerinden alıcının kimlik bilgilerini girin. Belediye rayiç belgesini ve mülke ait zorunlu deprem sigortası (DASK) poliçe bilgilerini sisteme taratarak yükleyin.'
+          },
+          {
+            bold: '3. Gelen Mesaj Doğrultusunda Harçları Yatırın — Harç Ödemeleri: ',
+            text: 'Tapu müdürlüğü evrakları inceledikten sonra tarafların cep telefonlarına harç miktarlarını ve harç mesaj kodlarını iletir. Yasal olarak satış bedelinin %2\'si alıcı, %2\'si satıcı tarafından olmak üzere toplam %4 tapu harcı ve döner sermaye bedeli banka kanalıyla online olarak ödenir.'
+          },
+          {
+            bold: '4. Randevu Saatinde İmza ve Para Transferi — Güvenli Kapanış: ',
+            text: 'Ödemelerin ardından tapudan kesin randevu saati gelir. Dolandırıcılık risklerini sıfırlamak için para transferinde elden nakit taşımak yerine bankaların Tapu Takas sistemi veya Bloke Çek yöntemi kullanılır. Tapu memurunun huzurunda imzalar atıldığı an, bloke edilen para satıcının hesabına geçer ve mülkiyet resmen devredilir.'
+          }
+        ]
+      },
+      {
+        type: 'heading',
+        text: '3. Aşama: Satış Sonrası Zorunlu Yasal Bildirimler'
+      },
+      {
+        type: 'paragraph',
+        text: 'İmzalar atılıp yeni tapu senedi alındıktan sonra süreç tamamen bitmez. Hem alıcının hem de satıcının cezai yaptırımlarla karşılaşmaması için yapması gereken resmi bildirimler vardır:'
+      },
+      {
+        type: 'bulletList',
+        items: [
+          {
+            bold: 'Belediye Emlak Vergisi Bildirimi: ',
+            text: 'Satıcı, mülkün satıldığını ilgili belediyeye dilekçe ile bildirerek emlak vergisi mükellefiyetini kendi üzerinden düşürmelidir. Alıcı ise satışı takip eden yılın sonuna kadar ilgili belediyeye giderek Emlak Vergisi Bildirimi vermekle yükümlüdür.'
+          },
+          {
+            bold: 'Aboneliklerin Tasfiyesi: ',
+            text: 'Satıcı; elektrik, su, doğal gaz ve internet aboneliklerini iptal ettirerek geçmiş depozitolarını geri alır. Alıcı ise yeni tapu senediyle bu abonelikleri kendi adına sıfırdan açtırır.'
+          },
+          {
+            bold: 'Mali Yükümlülük Kontrolü (Değer Artış Kazancı): ',
+            text: 'Eğer satılan mülk miras kalmadıysa ve satın alınma tarihinden itibaren 5 yıl geçmeden elden çıkarıldıysa, satıcı elde ettiği net kâr üzerinden Değer Artış Kazancı Vergisi ödemekle yükümlü olabilir. Satıcı, satışı takip eden yılın Mart ayında bu durumu beyan etmek zorundadır.'
+          }
+        ]
+      },
+      {
+        type: 'heading',
+        text: 'Sonuç: Süreci Neden Bir Uzmanla Yönetmelisiniz?'
+      },
+      {
+        type: 'paragraph',
+        text: 'Gayrimenkul satışı; doğru fiyatlandırma disiplininden dijital pazarlamaya, Web Tapu operasyonlarından vergi hukuku takibine kadar çok katmanlı bir uzmanlık alanıdır. İlan yönetimiyle uğraşmak, niteliksiz alıcı trafiğiyle zaman kaybetmek ve para transferi esnasında finansal risklerle karşı karşıya kalmamak adına; tüm bu operasyonu bölgenizde aktif çalışan kurumsal bir gayrimenkul danışmanına devretmek, mülkünüzün gerçek değerini masada korumanın en güvenilir yoludur.'
+      }
+    ]
   }
 ];
 
