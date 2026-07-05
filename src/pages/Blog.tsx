@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowRight, BookOpen } from 'lucide-react';
+import { ArrowRight, BookOpen, User } from 'lucide-react';
 import { useSEO } from '../hooks/useSEO';
 import './Blog.css';
 
@@ -20,53 +20,14 @@ const Blog: React.FC = () => {
   }, []);
   const posts = [
     {
-      id: 1,
-      tag: "Piyasa Analizi",
-      title: "İstanbul Mahalle Dinamikleri ve Emlak Endeksi: Gelecek 5 Yılın Tespiti",
-      excerpt: "Bölgesel gentrifikasyon ve demografik geçişlerin konut fiyatlarına kısa ve orta vadedeki etkileri üzerine makro-ekonomik inceleme.",
-      date: "12 Kasım 2023",
-      readTime: "8 dk"
-    },
-    {
-      id: 2,
-      tag: "Yatırım",
-      title: "Enflasyonist Ortamlarda Gayrimenkul Stratejisi",
-      excerpt: "Sermayeyi koruma ve düzenli pasif gelir yaratma modelleri. Konut yatırımı vs ticari yatırım arasındaki risk-getiri dengeleri.",
-      date: "05 Kasım 2023",
-      readTime: "6 dk"
-    },
-    {
-      id: 3,
-      tag: "Satış Stratejisi",
-      title: "Hissiyata Değil Analize Dayalı Fiyatlandırma",
-      excerpt: "Evinizi satarken yapılan en kritik 3 optimizasyon hatası ve pazarlama sürecini hızlandıran veri tabanlı fiyat modellemeleri.",
-      date: "28 Ekim 2023",
-      readTime: "5 dk"
-    },
-    {
-      id: 4,
-      tag: "Hukuk & İnsan",
-      title: "Kiracılı Mülk Satışlarında Risk Yönetimi",
-      excerpt: "Satıcı, alıcı ve kiracı arasındaki hukuki ve davranışsal denge nasıl kurulmalı? Karşılıklı mağduriyeti önleme rehberi.",
-      date: "20 Ekim 2023",
-      readTime: "10 dk"
-    },
-    {
-      id: 5,
-      tag: "Sosyoloji",
-      title: "Yeni Nesil Alıcı Profili: Millennial Kuşağı ve Konut",
-      excerpt: "Yeni nesil gayrimenkul yatırımcılarının satın alma alışkanlıkları ve beklentileri üzerine demografik bir araştırma.",
-      date: "15 Ekim 2023",
-      readTime: "7 dk"
-    },
-    {
       id: 6,
       tag: "Satış Stratejisi",
       title: "Sahibinden Ev Satmanın Riskleri ve Profesyonel Desteğin Sağladığı 5 Avantaj",
       excerpt: "Sahibinden ev satmak düşündüğünüz kadar avantajlı olmayabilir. Bu rehberde, bireysel satışın riskleri ve profesyonel emlak danışmanı ile çalışmanın sağladığı 5 kritik avantajı objektif verilerle inceliyoruz.",
       date: "30 Mayıs 2026",
       readTime: "7 dk",
-      slug: "sahibinden-ev-satmanin-riskleri-ve-profesyonel-destegin-sagladigi-5-avantaj"
+      slug: "sahibinden-ev-satmanin-riskleri-ve-profesyonel-destegin-sagladigi-5-avantaj",
+      author: "Mahir Akar"
     },
     {
       id: 7,
@@ -75,7 +36,8 @@ const Blog: React.FC = () => {
       excerpt: "Tuzla satılık daire ve arsa piyasası, 2026 yılında da o eski yüksek prim potansiyelini koruyor mu? Amortisman süreleri, metrekare fiyatları ve bölge bazlı fırsatlar.",
       date: "30 Mayıs 2026",
       readTime: "7 dk",
-      slug: "tuzla-hala-gayrimenkul-yatirimi-icin-kazancli-mi-2026-yili-pazar-analizi"
+      slug: "tuzla-hala-gayrimenkul-yatirimi-icin-kazancli-mi-2026-yili-pazar-analizi",
+      author: "Mahir Akar"
     },
     {
       id: 8,
@@ -84,7 +46,8 @@ const Blog: React.FC = () => {
       excerpt: "Evini, arsasını veya iş yerini elden çıkaran mülk sahiplerinin karşılaştığı en önemli mali yükümlülüklerden biri olan değer artış kazancı vergisini adım adım inceliyoruz. 2026 güncel istisna tutarları ve hesaplama örneği.",
       date: "13 Haziran 2026",
       readTime: "8 dk",
-      slug: "gayrimenkul-satisinda-deger-artis-kazanci-vergisi-nasil-hesaplanir"
+      slug: "gayrimenkul-satisinda-deger-artis-kazanci-vergisi-nasil-hesaplanir",
+      author: "Mahir Akar"
     },
     {
       id: 9,
@@ -93,7 +56,8 @@ const Blog: React.FC = () => {
       excerpt: "Pendik satılık daire ve arsa piyasası, 2026 yılında yatırımcısına hala yüksek getiri vaat ediyor mu? Metrekare fiyatları, amortisman süreleri ve bölge bazlı yatırım fırsatları.",
       date: "13 Haziran 2026",
       readTime: "9 dk",
-      slug: "pendik-gayrimenkul-yatirimi-icin-hala-kazancli-mi-2026-yili-pazar-analizi"
+      slug: "pendik-gayrimenkul-yatirimi-icin-hala-kazancli-mi-2026-yili-pazar-analizi",
+      author: "Mahir Akar"
     }
   ];
 
@@ -118,6 +82,7 @@ const Blog: React.FC = () => {
               
               <div className="card-footer">
                 <div className="card-meta">
+                  {post.author && <><span><User size={14} className="inline-icon" /> {post.author}</span><span className="dot-divider">•</span></>}
                   <span>{post.date}</span>
                   <span className="dot-divider">•</span>
                   <span><BookOpen size={14} className="inline-icon" /> {post.readTime}</span>

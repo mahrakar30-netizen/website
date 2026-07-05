@@ -32,6 +32,7 @@ Tuzla, Pendik ve Kartal bölgelerinde veri odaklı gayrimenkul danışmanlığı
 - [Emlakçı ve Gayrimenkul Danışmanı Arasındaki Farklar: Hangisini Tercih Etmelisiniz?](/makaleler/emlakci-ve-gayrimenkul-danismani-arasindaki-farklar) - Emlakçı ile gayrimenkul danışmanı arasındaki iş yapış modeli, veri analizi ve hukuki donanım farkları
 - [Tarla Gayrimenkul Sayılır Mı? Hukuki ve Finansal Açıdan Arsa-Tarla Statüsü](/makaleler/tarla-gayrimenkul-sayilir-mi-hukuki-ve-finansal-acidan-arsa-tarla-statusu) - Tarlanın Türk Medeni Kanunu\'na göre gayrimenkul statüsü, arsa-tarla farkları ve tarla yatırımının avantajları
 - [Gayrimenkul Satış Süreci: 3 Aşamada Eksiksiz Rehber](/makaleler/gayrimenkul-satis-sureci-3-asamada-eksiksiz-rehber) - Mülkün pazara çıkışından tapu devrine ve satış sonrası yasal bildirimlere kadar tüm satış süreci rehberi
+- [Emlakçıya e-Devletten Yetki Vermek Zorunlu mu?](/makaleler/emlakciya-e-devletten-yetki-vermek-zorunlu-mu) - e-Devlet üzerinden emlakçı yetkilendirme sistemi, zorunluluk durumları ve adım adım yetkilendirme rehberi
 
 ## District Pages
 

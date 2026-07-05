@@ -1393,6 +1393,117 @@ const articles: Article[] = [
         text: 'Gayrimenkul satışı; doğru fiyatlandırma disiplininden dijital pazarlamaya, Web Tapu operasyonlarından vergi hukuku takibine kadar çok katmanlı bir uzmanlık alanıdır. İlan yönetimiyle uğraşmak, niteliksiz alıcı trafiğiyle zaman kaybetmek ve para transferi esnasında finansal risklerle karşı karşıya kalmamak adına; tüm bu operasyonu bölgenizde aktif çalışan kurumsal bir gayrimenkul danışmanına devretmek, mülkünüzün gerçek değerini masada korumanın en güvenilir yoludur.'
       }
     ]
+  },
+  {
+    slug: 'emlakciya-e-devletten-yetki-vermek-zorunlu-mu',
+    title: 'Emlakçıya e-Devletten Yetki Vermek Zorunlu mu? e-Devlet Üzerinden Emlakçı Yetkilendirme Rehberi',
+    author: 'Mahir Akar',
+    date: '2026-07-05',
+    category: 'Hukuki Rehber',
+    readTime: '6 dk',
+    excerpt: 'Emlakçıya e-Devletten yetki vermek zorunlu mu? Ticaret Bakanlığı\'nın zorunlu kıldığı e-Devlet yetkilendirme sistemi hakkında kapsamlı rehber. Hangi durumlarda zorunlu olduğu, adım adım yetkilendirme süreci ve mülk sahibine sağladığı avantajlar.',
+    keywords: 'e-Devlet yetkilendirme, emlakçı yetkilendirme, e-Devlet emlakçı yetkisi, Taşınmaz Ticareti Bilgi Sistemi, TTBS, emlakçıya e-Devletten yetki verme, sahte ilan önleme, Ticaret Bakanlığı emlak düzenlemesi',
+    content: [
+      {
+        type: 'paragraph',
+        text: 'Ticaret Bakanlığı\'nın ilan platformlarında sahte, köpük ve manipülatif fiyatlı ilanların önüne geçmek için başlattığı e-Devlet doğrulama sistemi, mülk sahiplerinin e-Devlet üzerinden yapacağı yetkilendirme süreçlerini emlak pazarının merkezine taşımıştır. Bu yasal düzenleme çerçevesinde, "Emlakçıya e-Devletten yetki vermek zorunlu mu?" sorusunun cevabı, mülkünüzü ilan sitelerinde bir emlak ofisi aracılığıyla pazarlamak istiyorsanız evet, zorunludur.'
+      },
+      {
+        type: 'paragraph',
+        text: 'Bu rehberde, sistemin yasal dayanaklarını, zorunluluk kapsamını ve e-Devlet üzerinden emlakçı yetkilendirme işleminin nasıl yapıldığını rasyonel adımlarla inceleyeceğiz.'
+      },
+      {
+        type: 'heading',
+        text: '1. e-Devlet Yetkilendirmesi Hangi Durumlarda Zorunludur?'
+      },
+      {
+        type: 'paragraph',
+        text: 'Ticaret Bakanlığı\'nın ilan platformlarında sahte, köpük ve manipülatif fiyatlı ilanların önüne geçmek için başlattığı bu sistem, belirli kurallara tabidir:'
+      },
+      {
+        type: 'bulletList',
+        items: [
+          {
+            bold: 'Emlak Ofisi Aracılığıyla İlan Verilecekse (Zorunlu): ',
+            text: 'Eğer mülkünüzün satışı veya kiralanması için taşınmaz ticareti yetki belgesine sahip profesyonel bir gayrimenkul danışmanını görevlendirdiyseniz ve bu danışman mülkünüzü ilan sitelerinde (sahibinden.com, emlakjet vb.) listeleyecekse, e-Devlet üzerinden o danışmana/ofise yetki vermeniz yasal bir zorunluluktur. Yetki verilmediği takdirde, ilan sitelerinin altyapısı emlakçının o ilanı yayına almasına izin vermez.'
+          },
+          {
+            bold: 'Mülk Sahibi Kendisi İlan Verecekse (Muaf): ',
+            text: 'Eğer mülkünüzü hiçbir aracı olmadan, doğrudan kendi e-Devlet hesabınız üzerinden doğrulama yaparak kendiniz ilana atacaksanız, bir başkasına yetki verme zorunluluğunuz yoktur.'
+          },
+          {
+            bold: 'Birinci Derece Akrabalar: ',
+            text: 'Eş, anne, baba veya çocuklar adına ilan verileceği durumlarda da sistem akrabalık bağını e-Devlet üzerinden otomatik kontrol eder; akrabalık bağı doğrulanırsa ekstra bir emlakçı yetkilendirmesine gerek kalmaz.'
+          }
+        ]
+      },
+      {
+        type: 'heading',
+        text: '2. e-Devlet Üzerinden Emlakçıya Yetki Nasıl Verilir?'
+      },
+      {
+        type: 'paragraph',
+        text: 'Mülk sahibinin gayrimenkul danışmanına ilan giriş yetkisi vermesi oldukça kısa ve güvenli bir dijital prosedürdür. İşte adım adım yetkilendirme süreci:'
+      },
+      {
+        type: 'bulletList',
+        items: [
+          {
+            bold: '1. e-Devlet Kapısına Giriş Yapın: ',
+            text: 'T.C. kimlik numaranız ve şifreniz ile e-Devlet kapısına giriş yapın. Arama çubuğuna "Taşınmaz Ticareti Bilgi Sistemi (TTBS)" veya "Emlakçı Yetkilendirme" yazarak ilgili hizmete gidin.'
+          },
+          {
+            bold: '2. Yetkilendirilecek Taşınmazı Seçin: ',
+            text: 'Sistem, Tapu ve Kadastro Genel Müdürlüğü (TKGM) entegrasyonu sayesinde üzerinize kayıtlı olan taşınmazları listeleyecektir. İlana çıkmasını istediğiniz mülkü seçin.'
+          },
+          {
+            bold: '3. Danışmanın Yetki Belge Numarasını Girin: ',
+            text: 'Çalıştığınız kurumsal emlak ofisinin Ticaret Bakanlığı tarafından verilen Taşınmaz Ticareti Yetki Belgesi Numarasını girin. Sistem ofis bilgilerini otomatik doğrulayacaktır.'
+          },
+          {
+            bold: '4. Yetki Süresini Belirleyin: ',
+            text: 'Yönetmelik gereği emlakçıya verilen ilan yetkisinin bir süresi olmalıdır. Bakanlık tarafından belirlenen asgari yetkilendirme süresi 3 aydır. Sözleşmenize paralel olarak bu süreyi belirleyin.'
+          },
+          {
+            bold: '5. İşlemi Onaylayın ve Tamamlayın: ',
+            text: 'Bilgilerin doğruluğunu kontrol ettikten sonra onay butonuna basın. Bu aşamadan sonra gayrimenkul danışmanınızın sistemine yetki düşer ve mülkünüzü yasal olarak ilan sitelerinde pazarlamaya başlayabilir.'
+          }
+        ]
+      },
+      {
+        type: 'heading',
+        text: '3. Bu Sistem Mülk Sahibine Hangi Avantajları Sağlar?'
+      },
+      {
+        type: 'paragraph',
+        text: 'e-Devlet üzerinden yetkilendirme yapmak mülk sahipleri için bir bürokratik yük değil, tam aksine mülkiyet güvenliğini koruyan bir kalkandır:'
+      },
+      {
+        type: 'bulletList',
+        items: [
+          {
+            bold: 'Yetkisiz ve Sahte İlanların Engellenmesi: ',
+            text: 'Mülkünüzün fotoğraflarını internetten çalarak sizden habersiz, farklı fiyatlarla sahte ilan giren "ayakçı" veya kayıt dışı kişilerin mülkünüz üzerinden spekülasyon yapması tamamen engellenir.'
+          },
+          {
+            bold: 'Fiyat Manipülasyonunun Önüne Geçilmesi: ',
+            text: 'Aynı mülkün internette 5 farklı emlakçı tarafından 5 farklı fiyatla listelenerek mülkün imajının zedelenmesi önlenir.'
+          },
+          {
+            bold: 'Hukuki Güvence: ',
+            text: 'e-Devlet üzerinden yetki verdiğiniz ofis, Ticaret Bakanlığı tarafından denetlenen resmî bir kuruluştur. Bu da güvenli ev satışı ve kiralama süreçlerinin yasal zeminini oluşturur.'
+          }
+        ]
+      },
+      {
+        type: 'heading',
+        text: 'Sonuç'
+      },
+      {
+        type: 'paragraph',
+        text: 'Modern gayrimenkul pazarında e-Devlet yetkilendirmesi, emlak ticaretini şeffaf, güvenli ve profesyonel hale getirmek için zorunlu kılınmış bir dijital doğrulama sistemidir. Mülkünüzü şansa bırakmamak, ilan sitelerinde yasal engellere takılmamak ve sürecin en başından itibaren hukuki güvence altında ilerlemesini sağlamak için, Ticaret Bakanlığı onaylı Taşınmaz Ticareti Yetki Belgesi olan kurumsal bir gayrimenkul danışmanı ile çalışarak e-Devlet yetkilendirmesini eksiksiz tamamlamak en doğru ticari adımdır.'
+      }
+    ]
   }
 ];
 
